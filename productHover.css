@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=Lilita+One&family=Nunito:wght@200&family=Rubik+Puddles&display=swap%27);");
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.imgwidth{
+    width: 100%;
+}
+.mlBtm{
+    margin-bottom: 24px;
+}
+.mlBtm12{
+    margin-bottom: 12px;
+}
+.li_Image{
+    width: 10%;
+    margin-right: 2px;
+}
+.iconText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.underline:hover{
+    text-decoration: underline;
+}
+.product_Layout{
+    margin: auto;
+    width: 80%;
+    padding: 18px;
+    box-sizing: border-box;
+    display: flex;  
+}
+/* product navigathion left part--> */
+.nav_LeftPart{
+    width: 15%;
+}
+.listHeaderUl{
+    width: 100%;
+    list-style-type: none;
+    
+}
+
+.listleftHeader{
+    border-right:1px solid #ccc;
+}
+#ulParent_left>li{
+    margin-bottom: 8px;
+    font-size: 18px;
+    padding: 3px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+#ulParent_left>li>a{
+    font-family: sans-serif;
+    font-weight: 200;
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+#ulParent_left>li>a:hover{
+    background: rgba(0,66,133,1);
+    text-decoration: underline  ;
+    color:white;
+}
+#ulParent_leftli_bottom:hover{
+    color:  #06c;
+    background-color: white;
+}
+
+/* product navigathion right part--> */
+.product_rightNav{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#right_Nav>div:nth-child(4){
+    width: 20%;
+}
+.rightHead_a{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.anchortext{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    text-decoration: none;
+    color:  #06c;
+    padding: 4px 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+
