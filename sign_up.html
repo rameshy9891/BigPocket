@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <script src="https://kit.fontawesome.com/bd303dea31.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+
+<body>
+    <div id="mains">
+        <div id="bp" class="
+        child">
+        <img src="/24.png" alt="Error 404">
+        <h3>Have an Account?</h3>
+        <a href="sign_in.html">SIGN IN <i class="fa-solid fa-circle-chevron-right"></i></a>
+        </div>
+            <div id="container" class="child">
+                <main>
+                    <h2>Create an Account</h2>
+                    <form  role="form" onsubmit="signUp(event);" autocomplete="off">
+                        <div id="flname">
+                            <div class="form-group">
+                                <label for="fname">First Name:</label>
+                                <br>
+                                <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="fname">Last Name:</label>
+                                <br>
+                                <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">Your Email:</label>
+                                <br>
+                            <input type="email" name="email" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">Password:</label>
+                                <br>
+                            <input type="password" name="pwd" id="pwd" placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">Confirm Password:</label>
+                                <br>
+                            <input type="password" name="pwd1" id="pwd1" placeholder="Confirm Password" required>
+                        </div>
+                        <div id="boxes">
+                            <input type="checkbox" name="c1" id="c1">
+                            <label for="c1">Yes,I would like to recieve tips and special offers.</label>
+                            <br>
+                            <input type="checkbox" name="c2" id="c2">
+                            <label for="c2">Yes, sign me up for Adorama Rewards.</label>
+                            <br>
+                            <input type="checkbox" name="c3" id="c3">
+                            <label for="c3">Remember Me.</label>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">CREATE ACCOUNT</button>
+                        </div>
+                    </form>
+                </main>
+            </div>
+    </div>
+    <div id="fb">
+        <p>If you created an Adorama account with your <i class="fa-brands fa-facebook"></i> Facebook or <i class="fa-brands fa-twitter"></i>  Twitter login, please click HERE for Sign In information.</p> 
+    </div>
+    <div id="footer">
+<div><p><i class="fa-solid fa-circle"></i> PRIVACY POLICY</p></div>
+<div><p><i class="fa-solid fa-circle"></i> TERMS OF USE</p></div>
+<div><p><i class="fa-solid fa-circle"></i> CONTACT US</p></div>
+    </div>
+    <!-- <p style="color:black; background-color: rgb(240, 228, 215); padding-left: 100px; margin-top: 40px;">Copyright ©
+        2022-2033 Masai Grocery Supplies Pvt Ltd</p> -->
+    <script type="text/javascript" src="./sign_in.js"></script>
+</body>
+
+</html>
