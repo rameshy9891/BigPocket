@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=Lilita+One&family=Nunito:wght@200&family=Rubik+Puddles&display=swap%27");
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+#one{
+    background-color: #011d38;
+    text-align: center;
+    color: white;
+   
+    
+}
+
+
+#two{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+.left{
+    display:flex
+
+}
+.left>a{
+    margin-top: 5px;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 10px;
+    text-decoration: none;
+    color:#004387
+    
+
+}
+#right{
+ margin-top: 4px;
+    display: flex;
+gap:10px;
+justify-content: space-between;
+    
+    font-size: 12px;
+    margin-left: 100px;
+   
+}
+
+#right>div>img{
+    width: 20%;
+  
+}
+#right :nth-child(1){
+    display: flex;
+    gap: 7px;
+}
+#right :nth-child(2){
+    display: flex;
+    gap: 7px;
+}
+#right :nth-child(3){
+    display: flex;
+    gap: 7px;
+}
+/* two upper div finish */
+
+/* main nav start here */
+#mainnav{
+    background-color: #004387;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo>img{
+    margin-top: 5px;
+    width: 50%;
+    margin-left: 20px;
+
+}
+
+#mainright{
+    display: flex;
+}
+#mainright>div>#in{
+   margin-top: 23px;
+    height: 30px;
+    width: 400px;
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+    font-size: 18px;
+
+}
+
+::placeholder{
+   padding-left: 20px;
+   
+}
+#mainright>div{
+    margin-left: 40px;
+}
+#mainright>div>#cart{
+    width: 50%;
+    margin-top: 10px;
+}
+#userside{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+/* fourth part start hover here */
+
+#part4nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #004387;
+  margin-top: 1px;
+}
+#leftforhover{
+    display: flex;
+    
+}
+#leftforhover>div{
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+#rightforhover{
+    display: flex;
+    margin-right: 30px;
+    
+}
+#rightforhover>div{
+    margin-left: 40px;
+    font-size:20px;
+    color: white;
+}
+
+#bigimage>img{
+    width: 100%;
+}
+
+#specialdeal{
+    margin-top: 25px;
+    display: flex;
+    background-color: #004387;
+    height: 120px;
+}
+#specialdeal>div{
+    margin: auto;
+    margin-left: 35px;
+}
+
+#sign1>h5{
+    color: white; 
+    width: 100px;
+}
+
+#sign1>h6{
+    color: white; 
+}
+#cart1{
+    
+
+    margin-left: 50px;
+    height: 30px;
+    margin-top: 10px;
+}
+#sign1{
+    margin-top: 5px;
+    margin-left: -5px;
+    width: 50px;
+}
+#part4nav{
+    height: 35px;
+}
+#leftforhover>div{
+    font-size: 15px;
+    margin-top: 7px;
+}
+#rightforhover>div{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 7px;
+    
+}
+#perent1{
+    margin-top: 25px;
+    background-color: #004387;
+    height: 500px;
+}
+#one1{
+    display: flex;
+    padding-top: 10px;
+
+}
+
+#one1>h1{
+    margin-right: 450px;
+}
+#cup{
+    margin-left: 500px;
+    width: 3%;
+}
+
+#divimg{
+    width: 10%;
+}
+#deal{
+    margin-top: 10px;
+    background-color: aliceblue;
+    
+}
+#two2{
+    display: flex;
+    gap: 15px;
+}
+#two2>div{
+    margin-left: 10px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+#two2>div>a{
+    font-size: 13px;
+    
+   
+}
+#useflextop{
+    display: flex;
+    
+}
+
+
