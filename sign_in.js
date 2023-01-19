@@ -4,7 +4,6 @@ const signUp = e => {
         email = document.getElementById('email').value,
         pwd = document.getElementById('pwd').value;
     let pwd1 = document.getElementById('pwd1').value;
-
     let formData = JSON.parse(localStorage.getItem('formData')) || [];
 
     let exist = formData.length &&
@@ -13,18 +12,19 @@ const signUp = e => {
             data.lname.toLowerCase() == lname.toLowerCase()
         );
 
-    if (!exist) { 
-        if (pwd!= pwd1) {
-           document.getElementById("pwd1").style.border = "2px solid red"
+    if (!exist) {
+        if (pwd != pwd1) {
+            document.getElementById("pwd1").style.border = "2px solid red"
             alert("Enter your Password Again")
         } else {
-            formData.push({ fname, lname, email, pwd,});
+            formData.push({ fname, lname, email, pwd, });
             localStorage.setItem('formData', JSON.stringify(formData));
             document.querySelector('form').reset();
             document.getElementById('fname').focus();
             document.getElementById("pwd1").style.border = "2px solid black"
             alert("Account Created.\n\nPlease Sign In using the link below.");
-            location.href ="sign_in.html";
+
+            location.href = "sign_in.html";
         }
 
     } else {
@@ -43,7 +43,13 @@ function signIn(e) {
         alert("Incorrect login credentials");
     }
     else {
-        alert("login success")
+        if (pwd == "adminkuldeep" || pwd == "adminvishal") {
+            document.getElementById("adminbtn").style.visibility = "visible";    
+            alert("Admin Panel Unlocked")
+        } else {
+            alert("login success")
+        }
+
     }
     e.preventDefault();
 }
