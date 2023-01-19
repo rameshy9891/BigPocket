@@ -135,9 +135,8 @@ justify-content: space-between;
     margin-right: 30px;
     
 }
-#rightforhover a{
-    text-decoration: none;
-    margin-left: 20px;
+#rightforhover>div{
+    margin-left: 40px;
     font-size:20px;
     color: white;
 }
@@ -360,10 +359,3 @@ text-align: center;
 
 
 
-.vishalchange img {
-    /* width: 80%;  */
-    margin-top: -7px;
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
