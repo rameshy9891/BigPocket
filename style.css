@@ -237,6 +237,128 @@ justify-content: space-between;
     
 }
 
+/* shop category */
+
+#category{
+    display: flex;
+    gap: 10px;
+    margin: 10px ;
+}
+#category img{
+    background: transparent radial-gradient(closest-side at 50% 50%, #014B96 0%, #003773 100%) 0% 0% no-repeat padding-box;
+      border-radius: 5px;
+      width: 90px;
+      padding: 5px;
+}
+#category h3{
+text-align: center;
+}
+
+#insprireddiv{
+    display: flex;
+    margin-top: 10px;
+    
+}
+#insprireddiv>div{
+    width: 195px;
+    margin-left: 10px;
+    
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+#useflexrate{
+    display: flex;
+    
+}
+#insprireddiv>div>a{
+    text-decoration: none;
+    font-size: 13px;
+}
+#insprireddiv>div>img{
+    width: 70%;
+    margin-left: 30px;
+}
+#imgbig{
+    margin-top: 50px;
+}
+
+#imgbig>img{
+    width: 100%;
+}
+
+#bigimgflexuse{
+    display: flex;
+    margin-top: 30px;
+   
+    
+}
+#bigimgflexuse>div{
+    margin-left: 10px;
+  
+   
+}
+#bigimgflexuse>div>img{
+    width: 98%;
+}
+#textonimg{
+    display: flex;
+    margin-top: 30px;
+    
+    }
+
+    #textonimg>div>div>img{
+        width: 98%;
+    }
+    #textonimg>div{
+        margin-left: 10px;
+    }
+
+
+
+    #textonimg1{
+        display: flex;
+        margin-top: 100px;
+        
+        }
+    
+        #textonimg1>div>div>img{
+            width: 98%;
+        }
+        #textonimg1>div{
+            margin-left: 10px;
+        }
+
+
+        #textonimg2{
+            display: flex;
+            margin-top: 120px;
+            gap: 20px;
+            
+            }
+        
+          #pankaj{
+            width: 48.8%;
+            margin-left: 10px;
+          } 
+          #pankaj1{
+            width: 48%; 
+           }
+       
+          #pankaj >div> img{
+            width: 100%;
+            height: 310px;
+          }
+          #pankaj1>div> img{
+            width: 100%;
+            height: 310px;
+          }
+    
+    
+
+
+
+
 
 .vishalchange img {
     /* width: 80%;  */
