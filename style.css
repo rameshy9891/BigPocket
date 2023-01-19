@@ -238,3 +238,10 @@ justify-content: space-between;
 }
 
 
+.vishalchange img {
+    /* width: 80%;  */
+    margin-top: -7px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
