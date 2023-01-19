@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=Lilita+One&family=Nunito:wght@200&family=Rubik+Puddles&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+background-repeat: no-repeat;
+background-color: #004387;
+background-size: cover;
+}
+#mains{
+    display: flex;
+    margin: auto;
+    display: none;
+}
+#mains1{
+    display: flex;
+    margin: auto;
+    display: none;
+}
+#bp{
+    margin: 50px;
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    color: white;
+    font-size: 25px;
+    padding-top: 200px;
+    margin-right: 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+
+}
+#bp img{
+    width: 500px;
+}
+#bp a{
+    text-decoration: none;
+    color: white;
+}
+#bp h3{
+    margin-top: 100px;
+}
+#container main h2{
+    font-size: 40px;
+}
+.form-group{
+    font-size: 24px;
+}
+#container{
+    margin: 50px;
+    background-color:white;
+    padding: 40px;
+    line-height: 44px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-left: 0px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#flname .form-group:nth-child(2){
+    padding-inline: 20px;
+}
+#flname input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+.form-group input{
+    width: 420px;
+    height: 40px;
+    border-radius: 5px;
+}
+::placeholder{
+    font-size: 22px;
+    padding-left: 10px;
+}
+button{
+    font-size: 28px;
+    width: 420px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    border-radius: 5px;
+    background: linear-gradient(180deg,#fc5d37 0%,#ed5132 49%,#e64525);
+    color: white;
+    border: none;
+}
+body{
+    display: flex;
+    flex-flow: column;
+    /* height: 100vh; */
+    /* caret-color: #A0CD4A; */
+}
+    #flname{
+        display: flex;
+    }
+    #fb{
+        color: white;
+        font-size: 24px;
+        text-align: center;
+    }
+    #footer{
+        display: flex;
+       justify-content: center;
+       position: sticky;
+       bottom: 0px;
+    }
+    #footer div{
+        margin-top: 50px;
+        padding:22px;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    #boxes{
+        color: rgb(4, 17, 190);
+        margin-top: 25px;
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    input{
+        font-size: 25px;
+        font-weight: 600f;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    #mains a:hover{
+        text-decoration: underline;
+            }
+            #welcome{
+                color: white;
+                text-align: center;
+                font-size: 40px;
+            }
+            #welcome2{
+                text-align: center;
+                font-size: 25px;
+                color: white;
+                margin-top: 20px;
+            }
+            #welcome3{
+                text-align: center;
+                margin-top: 50px;
+            }

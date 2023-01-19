@@ -142,3 +142,17 @@ body{
     #mains a:hover{
 text-decoration: underline;
     }
+    #adminbtn{
+        font-size: 25px;
+        padding: 10px;
+        border-radius: 8px;
+        font-weight: 600;
+        color: white;
+        background: linear-gradient(180deg,#fc5d37 0%,#ed5132 49%,#e64525);
+        border: none;
+        margin-left: 50%;
+        position: absolute;
+        top: 80px;
+        visibility: hidden;
+        
+    }

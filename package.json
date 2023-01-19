@@ -1,0 +1,23 @@
+{
+  "name": "whole-lace-7572",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sign_in.js",
+  "scripts": {
+    "start": "json-server --watch ./database/db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rameshy9891/whole-lace-7572.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rameshy9891/whole-lace-7572/issues"
+  },
+  "homepage": "https://github.com/rameshy9891/whole-lace-7572#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
