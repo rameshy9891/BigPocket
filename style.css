@@ -135,10 +135,12 @@ justify-content: space-between;
     margin-right: 30px;
     
 }
-#rightforhover>div{
-    margin-left: 40px;
-    font-size:20px;
+#rightforhover>a{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-size:15px;
     color: white;
+    text-decoration: none;
 }
 
 #bigimage>img{
@@ -183,12 +185,7 @@ justify-content: space-between;
     font-size: 15px;
     margin-top: 7px;
 }
-#rightforhover>div{
-    font-size: 13px;
-    font-weight: 500;
-    margin-top: 7px;
-    
-}
+
 #perent1{
     margin-top: 25px;
     background-color: #004387;
