@@ -1189,6 +1189,26 @@
       "image": "https://i.pinimg.com/736x/71/0b/dd/710bddd1fac224a60e82ddd57cbf0d93.jpg",
       "id": "1212",
       "price": "3214234"
+    },
+    {
+      "name": "Laptop",
+      "storage": "1TB",
+      "processor": "intel i5",
+      "ram": "16gb",
+      "temp": "12",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfFSKUpFyuP0pHO1TvKwI3gNpslZmTLULR0cMgLwID&s",
+      "id": "101654",
+      "price": "50000"
+    },
+    {
+      "name": "Kuldeep",
+      "storage": "12gb",
+      "processor": "amd ryzen 7",
+      "ram": "16gb",
+      "temp": "k",
+      "image": "https://i.pinimg.com/736x/71/0b/dd/710bddd1fac224a60e82ddd57cbf0d93.jpg",
+      "id": "995",
+      "price": "12121"
     }
   ]
 }
