@@ -7,6 +7,7 @@ fetch(baseURL)
     return obj.json();
 })
 .then((data)=>{
+    console.log(data)
     display(data);
 })
 function display(data){
@@ -63,6 +64,43 @@ form.addEventListener("submit",function(e){
     })
     let form1 = document.getElementById("form1");
     //Delete method
+    form1.addEventListener("submit",()=>{
+        e.preventDefault()
+        let name = document.getElementById("name").value;
+        let storage = document.getElementById("storage").value;
+        let image = document.getElementById("image").value;
+        let created = document.getElementById("created").value;
+        let processor = document.getElementById("processor").value;
+        let ram = document.getElementById("ram").value;
+        let temp = document.getElementById("temp").value;
+        let id = document.getElementById("id").value;
+        let price = document.getElementById("price").value;
+        fetch(`${baseURL}/${id}`,{
+            method:"DELETE",
+            body:JSON.stringify({
+                name:name,
+                storage:storage,
+                processor:processor,
+                ram:ram,
+                temp:temp,
+                image:image,
+                id:id,
+                price:price
+        }),
+            headers:{
+                'Content-type':'application/json'
+            },
+        })
+        .then(res=>{
+            return res.json()
+        })
+    .then(data=>{
+        // console.log(data)
+        display(json)
+    })
+    })
+   
+
 let main = document.getElementById("mains");
 let main1 = document.getElementById("mains1");
 let add = document.getElementById("add")
