@@ -1,3 +1,7 @@
+
+
+
+
 let cont = document.getElementById("cont")
 
 let image1 = document.getElementById("image1")
@@ -251,4 +255,3 @@ let value = sub1.value
     }
 
 })
-
