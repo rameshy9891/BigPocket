@@ -1,0 +1,109 @@
+.introduction{
+    display: flex;
+    padding: 25px;
+    padding-left: 0px;
+    gap: 50px;
+    background: transparent linear-gradient(114deg, #00144C 50%, #004D9A 100%) 0% 0% no-repeat padding-box;
+    padding-bottom: 12px;
+    font-size: 16px;
+    color: #ACE2FF;
+    line-height: 1.5;
+    font-weight: normal;
+    -webkit-font-smoothing: auto;
+    text-align: center;
+}
+
+#info{
+    text-align: center;
+    gap: 50px;
+    margin: auto;
+    
+    padding: 30px 0px;
+    /* width: 96%; */
+    background-color: #fff;
+}
+#info h4{
+    font-weight: 1000;
+    font-size: 2pc;
+    text-rendering: optimizeLegibility;
+    margin-bottom: 12px;
+    line-height: 1.35;
+
+}
+#info p{
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 30px !important;
+    font-weight: 700;
+}
+#circle-image{
+    margin: 25px;
+    display: flex;
+    text-align: center;
+}
+#circle-image b{
+    text-align: center;
+    margin: 70px 0px;
+    font-size: 50px;
+}
+#party-brand{
+    padding: 35px 0px;
+    text-align: center;
+}
+.party-image{
+    display: flex;
+    gap: 10px;
+    margin: 25px;
+}
+.party-image img{
+    width: 150px;
+    height: 150px;
+    background: #fff;
+}
+
+.watch-create{
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+.creator-imag{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    /* size: 30px; */
+}
+.creator-imag img{
+    border-radius: 1pc;
+    width: 30%;
+}
+
+#stay-connected{
+    text-align: center;
+    margin: 35px 0px;
+    padding: 50px;
+    background: transparent linear-gradient(279deg, #00144C 0%, #0057AD 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    height: 300px;
+}
+#stay-connected h1{
+    font-size: 3pc;
+    font-weight: 1000;
+    margin: 30px;
+}
+
+#connect-image{
+    display: flex;
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+    /* gap: 300px; */
+}
+#connect-image img{
+    width: 60px;
+    margin: 10px;
+}
