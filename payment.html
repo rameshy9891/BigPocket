@@ -65,18 +65,18 @@
                                 <div id="shippingDetails">   
                                     
                                     <div class="flexrow">   
-                                        <input type="text" id="firstName" class="inputs mbtm" placeholder="First Name*"> 
-                                        <input type="text"  id="lastName"  class="inputs mbtm"  placeholder="Last Name*">
+                                        <input type="text" id="firstName" class="inputs mbtm" placeholder="First Name*" required> 
+                                        <input type="text"  id="lastName"  class="inputs mbtm"  placeholder="Last Name*" required>
                                     </div>
-                                    <input type="text" id="CompanyName"  class="inputs mbtm imgWidth"  placeholder="Company Name(Optional)">
-                                    <input type="text" id="address" class="inputs mbtm imgWidth"  placeholder="type your address to auto-complete*">
-                                    <input type="text" id="appartentNo"  class="inputs mbtm imgWidth"  placeholder="Apt/Suite/Floor">
+                                    <input type="text" id="CompanyName"  class="inputs mbtm imgWidth"  placeholder="Company Name(Optional)" >
+                                    <input type="text" id="address" class="inputs mbtm imgWidth"  placeholder="type your address to auto-complete*" required>
+                                    <input type="text" id="appartentNo"  class="inputs mbtm imgWidth"  placeholder="Apt/Suite/Floor" required>
                                     <div class="flexrow">   
-                                        <input type="text" id="City"  class="inputs mbtm wid50 "  placeholder="City*">
-                                        <input type="text" id="Region"  class="inputs mbtm"  placeholder="Region*">
-                                        <input type="text" id="PostalCode"  class="inputs mbtm"  placeholder="Postal Code*">
+                                        <input type="text" id="City"  class="inputs mbtm wid50 "  placeholder="City*" required>
+                                        <input type="text" id="Region"  class="inputs mbtm"  placeholder="Region*" required>
+                                        <input type="text" id="PostalCode"  class="inputs mbtm"  placeholder="Postal Code*" required>
                                     </div>
-                                    <input type="number" id="Phone Number"  class="inputs mbtm"  placeholder="Phone Number">
+                                    <input type="number" id="Phone Number"  class="inputs mbtm"  placeholder="Phone Number*" required>
                                     <div class="savedefault mbtm">
                                         <input type="checkbox"  class="mlright"  id="defaultsettings"> <h5> Please send me deals, free tips & Reward news!    </h5>
                                     </div>
@@ -158,9 +158,9 @@
                             <!-- promocode section -->
                             <div id="promoCodeSection">   
                                 <div class="gifticondiv">
-                                    <span class="giftspan"><img src="./images/gift.png" class="giftimg" alt=""></span>
-                                    <span class="gifttextdiv"><h5>Do you have a gift card or promo code? </h5></span>
-                                    <span class="gifttextcancel displaynone"><h5>Cancel </h5></span>
+                                    <span id="promogift" class="giftspan"><img src="./images/gift.png" class="giftimg" alt=""></span>
+                                    <span id="gifttext" class="gifttextdiv"><h5>Do you have a gift card or promo code? </h5></span>
+                                    <span id="promocancel" class="gifttextcancel displaynone cursor"><h5>Cancel </h5></span>
                                 </div>
                                 <div id="promocodeinpdiv" class="displaynone">   
                                     <div id="proinpinp">  
@@ -185,16 +185,16 @@
                                 <div id="cardselect" class="imgWidth">   
                                     <div class="cardradio wid80">   
                                         <div class="firstcard">   
-                                            <input id ="debitcard" type="radio" class="radiobtn">
-                                            <img src="./images/cardpayment.png" alt="" class="imgWidth">
+                                            <input id ="debitcard" type="radio" class="radiobtn inpimagecard">
+                                            
                                         </div>
                                         <div class="firstcard">   
-                                            <input type="radio" class="" class="radiobtn">
-                                            <img src="./images/cardpayment.png" alt="" class="imgWidth">
+                                            <input type="radio" class="" class="radiobtninpimagepaytm">
+                                           
                                         </div>
                                         <div class="firstcard">   
-                                            <input type="radio" class="" class="radiobtn">
-                                            <img src="./images/cardpayment.png" alt="" class="imgWidth">
+                                            <input type="radio" class="" class="radiobtn inpimagegooglepay">
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -204,9 +204,9 @@
                                         <span>*required</span>
                                     </div>
                                     <div id="cardDetails">   
-                                        <input type="text" name="" id="" class="inpimage cardinpNo" placeholder="Card number*">
+                                        <input type="number" name="" id="" class="inpimage cardinpNo" placeholder="Card number*" required>
                                         <select name="" id="" class="cardinpNo">  
-                                            <option value="" class="opt">MM*</option>
+                                            <option value="" class="opt">MM*</option required>
                                             <option value="">01</option>
                                             <option value="">02</option>
                                             <option value="">03</option>
@@ -220,7 +220,7 @@
                                             <option value="">11</option>
                                             <option value="">12</option>
                                         </select>
-                                        <select name="" id="" class="cardinpNo">  
+                                        <select name="" id="" class="cardinpNo" required>  
                                             <option value="">YY*</option>
                                             <option value="">2023</option>
                                             <option value="">2024</option>
@@ -235,39 +235,39 @@
                                             <option value="">2032</option>
                                             <option value="">2033</option>
                                         </select>
-                                        <input type="number" value="" class="cardinpNo cvvhelp" placeholder="CVV*">
+                                        <input type="number" value="" class="cardinpNo cvvhelp" placeholder="CVV*" required>
                                         
                                     </div>
                                     <div class="padtp20 savecard">   
-                                        <input type="checkbox">
+                                        <input type="checkbox" class="mlright">
                                         <h4>Save Card</h4>
                                     </div>
                                     <div class="shippingDetailsFirstsec padtp20 rewardContent ">   
                                         <h3 id="shipToHead">BILLING ADDRESS:</h3>  
 
                                         <div class=" bilcheckdiv mbtm6">   
-                                            <input type="checkbox" class="mlright" id="billingaddresscheck">
+                                            <input type="checkbox" name="billingaddress" class="mlright" id="billingaddresscheck">
                                             <h4>My billing name & address are the same as my shipping</h4>
                                         </div>
-                                        <div class="padtp20">  
+                                        <div  id="billingDetails" class="padtp20">  
                                              
                                             
                                             <form action="" id="submitForm">    
                                                 <div id="shippingDetails">   
                                                     
                                                     <div class="flexrow">   
-                                                        <input type="text" id="firstName" class="inputs mbtm" placeholder="First Name*"> 
-                                                        <input type="text"  id="lastName"  class="inputs mbtm"  placeholder="Last Name*">
+                                                        <input type="text" id="firstName" class="inputs mbtm" placeholder="First Name*" required> 
+                                                        <input type="text"  id="lastName"  class="inputs mbtm"  placeholder="Last Name*" required>
                                                     </div>
                                                     <input type="text" id="CompanyName"  class="inputs mbtm imgWidth"  placeholder="Company Name(Optional)">
-                                                    <input type="text" id="address" class="inputs mbtm imgWidth"  placeholder="type your address to auto-complete*">
+                                                    <input type="text" id="address" class="inputs mbtm imgWidth"  placeholder="type your address to auto-complete*" required>
                                                     <input type="text" id="appartentNo"  class="inputs mbtm imgWidth"  placeholder="Apt/Suite/Floor">
                                                     <div class="flexrow">   
-                                                        <input type="text" id="City"  class="inputs mbtm wid50 "  placeholder="City*">
-                                                        <input type="text" id="Region"  class="inputs mbtm"  placeholder="Region*">
-                                                        <input type="text" id="PostalCode"  class="inputs mbtm"  placeholder="Postal Code*">
+                                                        <input type="text" id="City"  class="inputs mbtm wid50 "  placeholder="City*"required>
+                                                        <input type="text" id="Region"  class="inputs mbtm"  placeholder="Region*" required>
+                                                        <input type="text" id="PostalCode"  class="inputs mbtm"  placeholder="Postal Code*" required>
                                                     </div>
-                                                    <input type="number" id="Phone Number"  class="inputs mbtm"  placeholder="Phone Number">
+                                                    <input type="number" id="Phone Number"  class="inputs mbtm"  placeholder="Phone Number*"required>
                                                     <div class="padtp20 bilcheckdiv mbtm">   
                                                         <input type="checkbox" class="mlright">
                                                         <h4>Save as default billing address</h4>
@@ -281,16 +281,16 @@
                                     </div>
                                 </div>
                                 <div id="" class=" bilcheckdiv mbtm assisst height46">
-                                    <input type="checkbox" class="mlright ">
-                                    <h4 >Did someone assist you with your order?</h4>
-                                    <select name="" id="salesperson" class="  bilcheckdiv mlright ">  
+                                    <input id="salesAssistchechbox" type="checkbox" class="mlright ">
+                                    <h4 id="slaesassistquery" class="cursor">Did someone assist you with your order?</h4>
+                                    <select name="" id="salesperson" class=" salesperson bilcheckdiv mlright  ">  
                                         <option value="" id="">---Select a Salesperson---</option>
                                         <option value=""> Ramesh</option>
                                         <option value=""> Kuldeep</option>
                                         <option value=""> Vishal</option>
                                         <option value=""> Hariom</option>
                                     </select>
-                                    <span class="displaynone" id="cancelsaleselect">Cancel</span>
+                                    <span id="salesassistCancel"class="displaynone cursor" id="cancelsaleselect">Cancel</span>
                                 </div>
                                 <div id="" class="assisst">
                                     <div  class=" billsection">   
@@ -318,15 +318,15 @@
                                     </div>
                                 </div>
 
-                                <div id="" class="assisst imgWidth">
-                                    
+                                <div id="placeOrder" class=" imgWidth padtp20">
+                            
+                                    <p class="condition ">By clicking Place Order you agree to the <br>Big Pocket <a href="" class="anchortext">Terms & Condition</a></p>
                                     <div >   
                                         <button class="orderbtn">    
-                                            <span class="lockicon"><img src="./images/lock.png" alt="" class="imgWidth"></span>
+                                            <span class="lockicon mlright"><img src="./images/lock.png" alt="" class="lockimg"></span>
                                             <h2>Place Order</h2>
                                         </button>
                                     </div>
-                                    <p>By clicking Place Order you agree to the <br>Big Pocket <a href="">Terms & Condition</a></p>
                                 </div>
                             </div>
                             
@@ -346,6 +346,28 @@
                 </div>
             </div>
         </div>
+        <footer id="footer" >    
+            <div class="footer">   
+                <div class="mr20">   
+                    <h5 class="font16">Security 100% Guaranteed</h5>
+                    <p>Your order is safe & secure guarded by state-of-the-art technology.</p>
+                    <div class="customericons">   
+                        <span class="iconfooterspan"><img src="./images/trustedicon.svg" alt="" class="spanimg"></span>
+                        <span class="iconfooterspan"><img src="./images/BBBicon.gif" alt="" class="spanimgb"></span>
+                        <span class="iconfooterspan"><img src="./images/certifiedcustomers.gif" alt="" class="spanimg"></span>
+                    </div>
+                </div>
+                <div class="">   
+                    <h5 class="font16">We Value Your Privacy</h5>
+                    <p>Adorama will not sell or distribute your personal information under any circumstances.</p>
+                    <p><a href=""></a>Read our Privacy Policy</p>
+                </div>
+            </div>
+            <div class="bootomfooter">   
+                <p>@2023 Adorma Camera,Inc.All rights reserved.</p>
+            </div>
+        </footer>
     </div>
 </body>
+<script src="./payment.js"></script>
 </html>
