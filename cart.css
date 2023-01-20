@@ -219,12 +219,16 @@
     justify-content: space-between;
 
 }
+#lenlenalg{
+    font-size: 18px;
+    margin: 20px 33px 20px 0;   
+}
 .lenlen23 {
     font-size: 18px;
     margin: 20px 0 20px 33px;
 }
 
-.lenlen24 {
+.lenlen24, #len2424 {
     font-size: 18px;
     margin: 20px 33px 20px 0;
 }
@@ -268,4 +272,25 @@
     padding-left: 200px;
 }
 
+.afterdelete1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
 
+
+.afterbutton{
+    font-size: 15px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 50px;
+}
+.afterbutton:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

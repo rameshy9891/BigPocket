@@ -1,5 +1,9 @@
+
+
 let sam = JSON.parse(localStorage.getItem("buy")) || []
 let dl = document.getElementById("myre")
+let totalcart = document.getElementById("lenlenalg")
+let ordercart = document.getElementById("len2424")
 
 
 fetchdata(sam)
@@ -30,17 +34,11 @@ function pudhe(cartdata) {
 `
     dl.innerHTML = pl;
 
-    // let checkout = document.getElementById("checkcheck")
+    let checkout = document.getElementById("checkcheck")
 
-    // checkout.addEventListener("click", () => {
-    //     sam.splice(0,1)
-    //     localStorage.setItem("buy", JSON.stringify(sam))
-    //     alert("hi")
-    //     window.location.assign("/productpage.html")
-    // })
+    
 
     let remove = document.getElementsByClassName("savesave")
-    console.log(remove)
     for(let i=0; i<remove.length; i++){
         remove[i].addEventListener("click",()=>{
             sam.splice(i,1)
@@ -48,6 +46,71 @@ function pudhe(cartdata) {
             window.location.reload();
         })
     }
+
+    let sum = 0;
+    for(let i=0; i<sam.length; i++){
+        sum += sam[i].price
+    }
+
+    if(sam.length===0){
+        totalcart.innerText = 0;
+        ordercart.innerText = 0;
+        dl.innerHTML = `
+        <h1 class="afterdelete1">Please Go on Product Page && buy some item</h1>
+        <a href="./productpage.html" style="text-decoration: none;"><button class="afterbutton">Click Here</button></a>
+        `
+         alert("Redirect to the product page")
+        // checkout.addEventListener("click", () => { 
+        //     alert("Product Page")
+        //     window.location.assign("/productpage.html")
+        //     sam = [];
+        //     localStorage.setItem("buy", JSON.stringify(sam))
+        // })
+
+
+    }else{
+        totalcart.innerText = sum;
+        ordercart.innerText = sum + 1000 + 120;
+
+        checkout.addEventListener("click", () => { 
+            alert("Payment Page")
+            // window.location.assign("/productpage.html")
+            sam = [];
+            localStorage.setItem("buy", JSON.stringify(sam))
+        })
+    }
+    
+
+
+    let plus = document.getElementsByClassName("plusplus")
+    let minus = document.getElementsByClassName("minusminus")
+    let cal = document.getElementsByClassName("calcal")
+    
+
+
+    for(let i=0; i<plus.length; i++){
+        plus[i].addEventListener("click",()=>{
+            sum = sum - sam[i].price * cal[i].innerText
+            cal[i].innerText++;
+            ss = cal[i].innerText
+            sum += sam[i].price*cal[i].innerText 
+            cal[i].innerText = ss;
+            totalcart.innerText = sum;
+            ordercart.innerText = sum + 1000 + 120;
+        })
+    }
+
+    for(let i=0; i<minus.length; i++){
+        minus[i].addEventListener("click",()=>{
+            sum = sum - sam[i].price * cal[i].innerText
+            cal[i].innerText--;
+            sum += sam[i].price*cal[i].innerText 
+
+            totalcart.innerText = sum;
+            ordercart.innerText = sum + 1000 + 120;
+        })
+    }
+    
 }
 
 function render(image, name, processor, temp, ram, storage, price, brand) {
@@ -71,9 +134,9 @@ function render(image, name, processor, temp, ram, storage, price, brand) {
         </div>
 
         <div class="toto">
-            <button>+</button>
-            <span id="calcal">1</span>
-            <button>-</button>
+            <button class="plusplus">+</button>
+            <span class="calcal">1</span>
+            <button class="minusminus">-</button>
 
 
         </div>
@@ -92,5 +155,3 @@ function render(image, name, processor, temp, ram, storage, price, brand) {
     `
     return card;
 }
-
-
