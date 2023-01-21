@@ -87,7 +87,7 @@ justify-content: space-between;
     display: flex;
 }
 #mainright>div>#in{
-   margin-top: 23px;
+   margin-top: 40px;
     height: 30px;
     width: 400px;
     border-radius: 50px 50px 50px 50px;
@@ -143,8 +143,14 @@ justify-content: space-between;
     text-decoration: none;
 }
 
-#bigimage>img{
+/* swiper start here */
+
+/* #bigimage>img{
     width: 100%;
+} */
+
+.swiper-slide img{
+ width: 100%;
 }
 
 #specialdeal{
@@ -157,6 +163,65 @@ justify-content: space-between;
     margin: auto;
     margin-left: 35px;
 }
+
+
+/* timer code */
+#div2{
+   
+    display: flex;
+    width: 900px;
+    height: 100px;
+    background-color: aliceblue;
+   
+}
+
+.review-count{
+    display: inline;
+   
+    position: relative;
+    top: -3px;
+ 
+ }
+ .cartbtn{
+    margin-top: 8%;
+    width: 35%;
+  
+  color: #ffffff;
+  cursor: pointer;
+    background-color: #2d1152;
+    
+    border: none;
+   
+    
+    text-align: center;
+  
+ 
+ }
+ #count-down{
+    
+    color: white;
+    text-align: center;
+    box-shadow: rgba(52, 52, 207, 0.2) 0px 7px 29px 0px;
+    background-color: rgb(79, 76, 76);
+ }
+ .timer-cont{
+    /* display: flex ; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: rgb(55, 43, 43);
+    text-align: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px 5px;
+    padding: 5px;
+    border-radius: 20px;
+ }
+ #time{
+    margin: auto;
+    /* text-align: center; */
+    justify-content: center;
+ }
+
+ /* end timer */
 
 #sign1>h5{
     color: white; 
@@ -216,11 +281,13 @@ justify-content: space-between;
 #two2{
     display: flex;
     gap: 15px;
+
 }
 #two2>div{
-    margin-left: 10px;
+    width: 16%;
+    margin-left: 5px;
     background-color: white;
-    padding: 20px;
+   padding: 1.3%;
     margin-top: 20px;
 }
 #two2>div>a{
