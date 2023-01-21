@@ -387,6 +387,93 @@ text-align: center;
         #lastimg>div>img{
             width: 100%;
         }
+
+        #fluttertext{
+            margin-top: 5%;
+            height: 300px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+        #fluttertext>div{
+            margin-top: 1%;
+            text-align: center;
+            font-size: 18px;
+        }
+
+
+
+        /* flutter */
+
+        #mychangef{
+            margin-top: 5%;
+        }
+
+        #f1{
+            padding: 35px;
+            text-align: center;
+            color: whitesmoke;
+            background: #004387;
+            font-size: 3ch;
+            font-weight: 500;
+        }
+        #f2{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 35px;
+            font-size: 2.5ch;
+        }
+        #f2>p:hover{
+            color: #0454a4;
+           
+        }
+        #f3{
+            background-color: #ffffff;
+            display: flex;
+            text-align: center;
+            padding: 50px;
+            gap: 30px;
+        }
+        .social>img{
+            width: 40px;
+        }
+        #f4{
+            display: flex;
+            text-align: center;
+            justify-content: space-evenly;
+        }
+        #f4 a{
+            
+            display: block;
+            /* padding: 50px 10px; */
+            margin: 0.25px 0px;
+            /* margin-top: 3%; */
+            color: #0d71dc;
+            text-decoration: none;
+        }
+        #f4 a:hover{
+            /* color: #004387; */
+            text-decoration: underline;
+        }
+        button{
+            background:#004387;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        #f5{
+            margin-top: 10px;
+            background:#004387;
+            text-align: center;
+            color: whitesmoke;
+            padding: 10px ;
+        }
+        
+        #f6{
+            display: flex;
+            gap: 50px;
+            margin: 50px;
+        }
+        
     
     
 
