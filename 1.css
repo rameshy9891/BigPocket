@@ -22,7 +22,7 @@
 .vp1 {
     /* border: 2px solid red; */
     width: 15%;
-    margin: auto;
+    /* margin: auto; */
     /* height: 1200px; */
     margin-left: 50px;
 }
@@ -30,8 +30,9 @@
 .vp2 {
     /* border: 2px solid black; */
     width: 75%;
-    margin: auto;
+    /* margin: auto; */
     height: 1950px;
+    margin-left: 60px;
 }
 
 #digital {
@@ -41,7 +42,7 @@
 }
 
 #digital:hover {
-    color: #51a094;
+    color: #0044ff;
 }
 
 #cash {
@@ -76,12 +77,66 @@
     margin-top: 10px;
     color: #000000;
 }
-.mone2{
-    font-size: 16px;
+#mone200,#mone201,#mone202,#mone203,#mone204{
+    font-size: 14px;
     margin-left: 25px;
     margin-top: 10px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     color: #0066CC;
+}
+#mone200:hover,#mone201:hover,#mone202:hover,#mone203:hover,#mone204:hover{
+    cursor: pointer;
+    color: #fe0000;
+}
+
+
+#mmss1,#mmss2,#mmss3,#mmss4,#mmss5,#mmss6,#mmss7,#mmss8,#mmss9,#mmss10,#mmss11,#mmss12,#mmss13{
+    display: block;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: white;
+    margin-bottom: 5px;
+    border: none;
+    color: #0066CC;
+}
+
+#mmss1:hover,#mmss2:hover,#mmss3:hover,#mmss4:hover,#mmss5:hover,#mmss6:hover,#mmss7:hover,#mmss8:hover,#mmss9:hover,#mmss10:hover,#mmss11:hover,#mmss12:hover,#mmss13:hover{
+    cursor: pointer;
+    color: #ff0000;
+}
+
+#kkss1,#kkss2,#kkss3,#kkss4{
+    display: block;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: white;
+    margin-bottom: 5px;
+    border: none;
+    color: #0066CC;
+}
+
+#kkss1:hover,#kkss2:hover,#kkss3:hover,#kkss4:hover{
+    cursor: pointer;
+    color: #ff0000;
+}
+
+
+#ssss1,#ssss2,#ssss3,#ssss4{
+    display: block;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: white;
+    margin-bottom: 5px;
+    border: none;
+    color: #0066CC;
+}
+
+#ssss1:hover,#ssss2:hover,#ssss3:hover,#ssss4:hover{
+    cursor: pointer;
+    color: #ff0000;
 }
 
 #inp-1{
@@ -100,12 +155,12 @@
 .ces{
     font-weight: 500;
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #mone22,#mone221,#mone222,#mone223,#mone224,#mone225,#mone226,#mone227,#mone228,#mone229{
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 25px;
     margin-top: 20px;
     margin-bottom: 5px;
@@ -122,13 +177,17 @@
 
 
 
-.mone23{
-    font-size: 16px;
+#monemone23,#monemone24,#monemone25,#monemone26,#monemone27,#monemone28{
+    display: block;
+    font-size: 14px;
     margin-left: 25px;
     margin-top: 20px;
     margin-bottom: 5px;
+    background-color: white;
+    border: none;
     color: #0066CC;
 }
+
 #came1{
     display: inline;
     width: 39px;

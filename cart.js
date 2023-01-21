@@ -21,7 +21,9 @@ function fetchdata(data) {
             brand: item.brand,
             id: item.id
         }
+
     })
+
     pudhe(cartdata)
 
 }
@@ -30,7 +32,7 @@ function fetchdata(data) {
 
 function pudhe(cartdata) {
     let pl = `
-    ${cartdata.map(item => render(item.image, item.name, item.processor, item.temp, item.ram, item.storage, item.price, item.brand)).join("")}
+    ${cartdata.map(item => render(item.image, item.name, item.processor, item.temp, item.ram, item.storage, item.price, item.brand,item.c)).join("")}
 `
     dl.innerHTML = pl;
 
@@ -90,11 +92,13 @@ function pudhe(cartdata) {
 
     for(let i=0; i<plus.length; i++){
         plus[i].addEventListener("click",()=>{
+    
             sum = sum - sam[i].price * cal[i].innerText
             cal[i].innerText++;
-            ss = cal[i].innerText
             sum += sam[i].price*cal[i].innerText 
-            cal[i].innerText = ss;
+            totalcart.innerText = sum;
+            ordercart.innerText = sum + 1000 + 120;
+            
             totalcart.innerText = sum;
             ordercart.innerText = sum + 1000 + 120;
         })
@@ -105,15 +109,16 @@ function pudhe(cartdata) {
             sum = sum - sam[i].price * cal[i].innerText
             cal[i].innerText--;
             sum += sam[i].price*cal[i].innerText 
-
             totalcart.innerText = sum;
             ordercart.innerText = sum + 1000 + 120;
         })
     }
     
+
+    
 }
 
-function render(image, name, processor, temp, ram, storage, price, brand) {
+function render(image, name, processor, temp, ram, storage, price, brand,c) {
     let card = `
     
     <div id="vp3">
@@ -135,7 +140,7 @@ function render(image, name, processor, temp, ram, storage, price, brand) {
 
         <div class="toto">
             <button class="plusplus">+</button>
-            <span class="calcal">1</span>
+            <span class="calcal">${1}</span>
             <button class="minusminus">-</button>
 
 
@@ -149,7 +154,6 @@ function render(image, name, processor, temp, ram, storage, price, brand) {
     <div><img src="./pr_image/2.png" alt=""></div>
         <div><button id="addadd">Add</button></div>
     </div>
-   
 </div><br><br>
 
     `
