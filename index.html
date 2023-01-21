@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<title>AdminHub</title>
+</head>
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-smile'></i>
+			<span class="text">Admin Panel</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="index.html">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+				<a href="#">
+					<i class='bx bxs-group' ></i>
+					<span class="text">Team</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="sign_in.html" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="profile">
+				<img src="img/Picsart_23-01-09_09-28-40-946.jpg">
+			</a>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1 id="crud">Dashboard</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+						<li><i class='bx bx-chevron-right' ></i></li>
+						<li>
+							<a class="active" href="#" id="cr">Home</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="container" class="child">
+                <main>
+                    <h2>Product Management
+                    </h2>
+                    <form id="form" method="post">
+                             <div class="form-group">
+                                <label for="fname">Created at:</label>
+                                <br>
+                                <input type="text" name="fname" id="created" placeholder="Created at" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="fname">Image:</label>
+                                <br>
+                                <input type="text" name="fname" id="image" placeholder="Image" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="fname">Name:</label>
+                                <br>
+                                <input type="text" name="fname" id="name" placeholder="Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="fname">Processor:</label>
+                                <br>
+                                <input type="text" name="lname" id="processor" placeholder="Processor" required>
+                            </div>
+                        <div class="form-group">
+                            <label for="fname">Temp:</label>
+                                <br>
+                            <input type="text" name="email" id="temp" placeholder="Temp" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">RAM:</label>
+                                <br>
+                            <input type="text" name="pwd" id="ram" placeholder="Ram" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">Storage:</label>
+                                <br>
+                            <input type="text" name="pwd1" id="storage" placeholder="Storage" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">Price:</label>
+                                <br>
+                            <input type="number" name="pwd1" id="price" placeholder="Price" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">ID:</label>
+                                <br>
+                            <input type="number" name="pwd1" id="id" placeholder="ID" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">Brand:</label>
+                                <br>
+                            <input type="text" name="pwd1" id="brand" placeholder="Brand" required>
+                        </div>
+                         
+                        <div class="form-group">
+                            <button type="submit">Add Product</button>
+                        </div>
+                    </form>
+                </main>
+            </div>
+			<div id="container1" class="child">
+				<h2>Product Management
+				</h2>
+				<form id="form1">
+						 <div class="form-group">
+							<label for="fname">ID:</label>
+							<br>
+							<input type="number" name="fname" id="ids" placeholder="Enter ID of Product" required>
+						</div>    
+					<div class="form-group">
+						<button type="submit">Delete Product</button>
+					</div>
+				</form>
+		</div>
+		<div id="container2" class="child">
+            <main>
+                <h2>Updating Product</h2>
+                <form id="form2">
+                    <div class="form-group">
+                        <label for="fname">ID of Product :</label>
+                            <br>
+                        <input type="number" name="pwd1" id="idu" placeholder="ID" required>
+                    </div>
+                         <div class="form-group">
+                            <label for="fname">Created at:</label>
+                            <br>
+                            <input type="text" name="fname" id="createdu" placeholder="Created at">
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">Image:</label>
+                            <br>
+                            <input type="text" name="fname" id="imageu" placeholder="Image">
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">Name:</label>
+                            <br>
+                            <input type="text" name="fname" id="nameu" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">Processor:</label>
+                            <br>
+                            <input type="text" name="lname" id="processoru" placeholder="Processor">
+                        </div>
+                    <div class="form-group">
+                        <label for="fname">Temp:</label>
+                            <br>
+                        <input type="text" name="email" id="tempu" placeholder="Temp">
+                    </div>
+                    <div class="form-group">
+                        <label for="fname">RAM:</label>
+                            <br>
+                        <input type="text" name="pwd" id="ramu" placeholder="Ram">
+                    </div>
+                    <div class="form-group">
+                        <label for="fname">Storage:</label>
+                            <br>
+                        <input type="text" name="pwd1" id="storageu" placeholder="Storage">
+                    </div>
+                    <div class="form-group">
+                        <label for="fname">Price:</label>
+                            <br>
+                        <input type="number" name="pwd1" id="priceu" placeholder="Price">
+                    </div>
+                    <div class="form-group">
+                        <label for="fname">Brand:</label>
+                            <br>
+                        <input type="text" name="pwd1" id="brandu" placeholder="Brand">
+                    </div>
+                     
+                    <div class="form-group">
+                        <button type="submit">Update Product</button>
+                    </div>
+                </form>
+            </main>
+        </div>
+<div id="todel">
+			<ul class="box-info">
+				<li>
+					<i class='bx bxs-calendar-check' ></i>
+					<span class="text">
+						<h3>1020</h3>
+						<p>New Order</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-group' ></i>
+					<span class="text">
+						<h3>2834</h3>
+						<p>Visitors</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-dollar-circle' ></i>
+					<span class="text">
+						<h3>$2543</h3>
+						<p>Total Sales</p>
+					</span>
+				</li>
+			</ul>
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Team Members</h3>
+						<i class='bx bx-search' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>User</th>
+								<th>Joining Date</th>
+								<th>Status</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img src="img/people.png">
+									<p>Ramesh Kumar</p>
+								</td>
+								<td>16-01-2023</td>
+								<td><span class="status process">Team Lead</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/Picsart_23-01-09_09-28-40-946.jpg">
+									<p>Kuldeep Tiwari</p>
+								</td>
+								<td>16-01-2023</td>
+								<td><span class="status completed">Admin</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/WhatsApp Image 2023-01-21 at 18.27.54.jpeg">
+									<p>Zidhu Nath</p>
+								</td>
+								<td>16-01-2023</td>
+								<td><span class="status pending">Member</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/WhatsApp Image 2023-01-21 at 21.16.55.jpeg">
+									<p>Hariom Verma</p>
+								</td>
+								<td>16-01-2023</td>
+								<td><span class="status pending">Member</span></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/IMG_20230121_203030.jpg">
+									<p>Vishal Padashwan</p>
+								</td>
+								<td>16-01-2023</td>
+								<td><span class="status pending">Member</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="todo">
+					<div class="head">
+						<h3>Todos</h3>
+						<i class='bx bx-plus' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<ul class="todo-list">
+						<li class="completed">
+							<p>Adding Product</p>
+							<i class='bx bx-plus' id="add"></i>
+						</li>
+						<li class="completed">
+							<p>Updating Product</p>
+							<i class='bx bx-plus' id="update"></i>
+						</li>
+						<li class="not-completed">
+							<p>Deleting Product</p>
+							<i class='bx bx-plus' id="del"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+		<!-- MAIN -->
+	</div>
+	</section>
+	<!-- CONTENT -->
+	
+
+	<script src="admin.js"></script>
+</body>
+</html>
