@@ -8,6 +8,180 @@ body{
 
 }
 
+/* navigation bar from Ramesh */
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+#one{
+    background-color: #011d38;
+    text-align: center;
+    color: white;
+   
+    
+}
+
+
+#two{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+.left{
+    display:flex
+
+}
+.left>a{
+    margin-top: 5px;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 10px;
+    text-decoration: none;
+    color:#004387
+    
+
+}
+#right{
+ margin-top: 4px;
+    display: flex;
+gap:10px;
+justify-content: space-between;
+    
+    font-size: 12px;
+    margin-left: 100px;
+   
+}
+
+#right>div>img{
+    width: 20%;
+  
+}
+#right :nth-child(1){
+    display: flex;
+    gap: 7px;
+}
+#right :nth-child(2){
+    display: flex;
+    gap: 7px;
+}
+#right :nth-child(3){
+    display: flex;
+    gap: 7px;
+}
+/* two upper div finish 
+
+agin push*/
+
+/* main nav start here */
+#mainnav{
+    background-color: #004387;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo>img{
+    margin-top: 5px;
+    width: 50%;
+    margin-left: 20px;
+
+}
+
+#mainright{
+    display: flex;
+}
+#mainright>div>#in{
+   margin-top: 40px;
+    height: 30px;
+    width: 400px;
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+    font-size: 18px;
+
+}
+
+::placeholder{
+   padding-left: 20px;
+   
+}
+#mainright>div{
+    margin-left: 40px;
+}
+#mainright>div>#cart{
+    width: 50%;
+    margin-top: 10px;
+}
+#userside{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+/* fourth part start hover here */
+
+#part4nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #004387;
+  margin-top: 1px;
+}
+#leftforhover{
+    display: flex;
+    
+}
+#leftforhover>div{
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+#rightforhover{
+    display: flex;
+    margin-right: 30px;
+    
+}
+#rightforhover>a{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-size:15px;
+    color: white;
+    text-decoration: none;
+}
+
+#sign1>h5{
+    color: white; 
+    width: 100px;
+}
+
+#sign1>h6{
+    color: white; 
+}
+#cart1{
+    
+
+    margin-left: 50px;
+    height: 30px;
+    margin-top: 10px;
+}
+#sign1{
+    margin-top: 5px;
+    margin-left: -5px;
+    width: 50px;
+}
+#part4nav{
+    height: 35px;
+}
+#leftforhover>div{
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+
+/* CSS for main part
+middle content */
+
 #div1, #div4, #div3, #div5{
     padding: 2% 25px;
 }
@@ -66,38 +240,45 @@ body{
 }
 #category img{
     background: transparent radial-gradient(closest-side at 50% 50%, #014B96 0%, #003773 100%) 0% 0% no-repeat padding-box;
-      border-radius: 5px;
+      /* border-radius: 5px; */
       width: 100px;
       padding: 5px;
 }
 #category h3{
 text-align: center;
 }
-#trending{
+
+
+#insprireddiv {
     display: flex;
-    gap: 15px;
-    
+    margin-top: 10px;
+
 }
-#trending div{
-    border-radius: 10px;
+
+#insprireddiv>div {
+    width: 195px;
+    margin-left: 10px;
+
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+#useflexrate {
     display: flex;
-    flex-direction: column;
-    background: white;
-    text-align: center;
-    justify-content: center;
-    padding: 5px;
+
 }
-#trending img{
-    width: 100%;
+
+#insprireddiv>div>a {
+    text-decoration: none;
+    font-size: 13px;
 }
-#trending span{
-    text-decoration: line-through;
-    margin: 10px;
-    font-weight: 0;
+
+#insprireddiv>div>img {
+    width: 70%;
+    margin-left: 30px;
 }
-#trending>div>p{
-    font-weight: 900;
-}
+
 
 #div5{
     font-size: 2.37ch;
@@ -172,3 +353,66 @@ button{
 }
 
 
+
+/* slidding */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .sss{
+    display: flex;
+    width: 10%;
+    gap: 15px;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
