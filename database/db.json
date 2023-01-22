@@ -1,78 +1,6 @@
 {
   "products": [
     {
-      "createdAt": "2023-01-16T12:41:58.914Z",
-      "image": "https://www.adorama.com/images/product/ihp33t58aara.jpg",
-      "name": "HP OMEN 45L Gaming",
-      "processor": "AMD Ryzen 3",
-      "temp": "7000F",
-      "ram": "16GB",
-      "storage": "1012 HHD",
-      "price": 9000,
-      "id": "4",
-      "brand": "HP"
-    },
-    {
-      "createdAt": "2023-01-16T10:32:22.392Z",
-      "image": "https://www.adorama.com/images/product/ihp1j9c1aara.jpg",
-      "name": "HP classen 45L Gaming",
-      "processor": "Intel Core i9 11th Gen",
-      "temp": "12000F",
-      "ram": "16GB",
-      "storage": "512 SSD",
-      "price": 8000,
-      "id": "5",
-      "brand": "HP"
-    },
-    {
-      "createdAt": "2023-01-16T21:57:35.814Z",
-      "image": "https://www.adorama.com/images/product/ihp3e2e2usab.jpg",
-      "name": "HP Radden 45L Gaming",
-      "processor": "Intel Core i9 11th Gen",
-      "temp": "12000F",
-      "ram": "4GB",
-      "storage": "512 SSD",
-      "price": 5000,
-      "id": "6",
-      "brand": "HP"
-    },
-    {
-      "createdAt": "2023-01-16T15:04:02.804Z",
-      "image": "https://www.adorama.com/images/product/asv241eaes1.jpg",
-      "name": "Asus Vivo AAio",
-      "processor": "AMD Ryzen R1305G",
-      "temp": "12000F",
-      "ram": "16GB",
-      "storage": "256 SSD",
-      "price": 9000,
-      "id": "7",
-      "brand": "Asus"
-    },
-    {
-      "createdAt": "2023-01-16T09:41:02.620Z",
-      "image": "https://www.adorama.com/images/product/acmmxwv2lla.jpg",
-      "name": "Apple iMac",
-      "processor": "Apple M1 Ultra",
-      "temp": "22000F",
-      "ram": "32 GB",
-      "storage": "512 SSD",
-      "price": 15000,
-      "id": "8",
-      "brand": "Apple"
-    },
-    {
-      "createdAt": "2023-01-16T18:13:29.437Z",
-      "image": "https://www.adorama.com/images/product/acdge21aa7.jpg",
-      "name": "Acer Tonstel",
-      "processor": "AMD Ryzen 9",
-      "temp": "8000F",
-      "ram": "4 GB",
-      "storage": "256 SSD",
-      "price": 7500,
-      "id": "9",
-      "brand": "Acer"
-    },
-    {
       "createdAt": "2023-01-16T09:15:48.333Z",
       "image": "https://www.adorama.com/images/product/ihp575j6aara.jpg",
       "name": "HP Victus 15L ",
@@ -1177,38 +1105,15 @@
       "brand": "HP"
     },
     {
+      "created": "21.23.344",
       "name": "Kuldeep",
-      "id": "rWJH9Lk"
-    },
-    {
-      "name": "vishal",
-      "storage": "256GB",
+      "storage": "1TB",
       "processor": "amd ryzen 7",
       "ram": "16gb",
       "temp": "23",
       "image": "https://i.pinimg.com/736x/71/0b/dd/710bddd1fac224a60e82ddd57cbf0d93.jpg",
-      "id": "1212",
-      "price": "3214234"
-    },
-    {
-      "name": "Laptop",
-      "storage": "1TB",
-      "processor": "intel i5",
-      "ram": "16gb",
-      "temp": "12",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfFSKUpFyuP0pHO1TvKwI3gNpslZmTLULR0cMgLwID&s",
-      "id": "101654",
-      "price": "50000"
-    },
-    {
-      "name": "Kuldeep",
-      "storage": "12gb",
-      "processor": "amd ryzen 7",
-      "ram": "16gb",
-      "temp": "k",
-      "image": "https://i.pinimg.com/736x/71/0b/dd/710bddd1fac224a60e82ddd57cbf0d93.jpg",
-      "id": "995",
-      "price": "12121"
+      "id": "121",
+      "price": "123553"
     }
   ]
 }
