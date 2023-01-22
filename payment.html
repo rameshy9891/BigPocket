@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./payment.css">
+    <title>Payment</title>
+</head>
+<body>
+    <div id="mainContainer" >   
+        <header id="header" class="">  
+            <div class="redirectContainer">   
+              <div id="redirectHeader" class="wid80"> 
+                <div id="redirect" class="wid50  ">   
+                    <div id="imageRedirect">   
+                        <a href=""><img src="./images/24.png" class="imgWidth" alt=""></a>
+                    </div>
+                    <h2 class="rediretctText">Secure Checkout</h2>
+                </div>  
+                               
+                <div id="user_NameDiv"class="wid50">   
+                    <h5>Hello,Zidhu</h5>
+                </div>
+            </div>  
+            </div>  
+            
+            <div id="contact">  
+                <div id="contact-Wraper">   
+                    <div id="contact-Details">   
+                        <h4 class="mlright">Need Help</h4>
+                        <img src="./images/icons8-phone-48.png" class="contact-Detailsimage v" alt="">
+                        <p class="mlright">800-1700-1500</p>
+                        <p class="mlright">or</p>
+                        <img src="./images/icons8-speech-30.png" class="contact-Detailsimage mlright" alt="">
+                        <h6 class="textColorB">Live Chat</h6>
+                    </div>
+    
+                    <div id="cartID" class="textright font16">   
+                        <p>YOUR CART ID : 1456-153-145</p>
+                    </div>
+                </div> 
+                
+                
+            </div>
+        </header>
+
+        <div id="content_Container">   
+            <div id="content_DetailsContainer"> 
+                 
+                <div id="shippingDetails"> 
+                    <div class="shippingDetailsFirstsec">   
+                        <h3 id="shipToHead">Shipping Address</h3>  
+                        <div class="detailsBorder">  
+                             
+                            <div class="flexrow padtop mbtm">  
+                                <div class="flexrow font16">   
+                                    <h5>SHIP TO:</h5>
+                                    <SPan>IN</SPan>
+                                </div> 
+                                <label for="">*required</label>
+                                
+                            </div>
+                            <form action="" id="submitForm">    
+                                <div id="shippingDetails">   
+                                    
+                                    <div class="flexrow">   
+                                        <input type="text" id="firstName" class="inputs mbtm" placeholder="First Name*" required> 
+                                        <input type="text"  id="lastName"  class="inputs mbtm"  placeholder="Last Name*" required>
+                                    </div>
+                                    <input type="text" id="CompanyName"  class="inputs mbtm imgWidth"  placeholder="Company Name(Optional)" >
+                                    <input type="text" id="address" class="inputs mbtm imgWidth"  placeholder="type your address to auto-complete*" required>
+                                    <input type="text" id="appartentNo"  class="inputs mbtm imgWidth"  placeholder="Apt/Suite/Floor" required>
+                                    <div class="flexrow">   
+                                        <input type="text" id="City"  class="inputs mbtm wid50 "  placeholder="City*" required>
+                                        <input type="text" id="Region"  class="inputs mbtm"  placeholder="Region*" required>
+                                        <input type="text" id="PostalCode"  class="inputs mbtm"  placeholder="Postal Code*" required>
+                                    </div>
+                                    <input type="number" id="Phone Number"  class="inputs mbtm"  placeholder="Phone Number*" required>
+                                    <div class="savedefault mbtm">
+                                        <input type="checkbox"  class="mlright"  id="defaultsettings"> <h5> Please send me deals, free tips & Reward news!    </h5>
+                                    </div>
+                                     
+                                </div>
+                            </form>
+                        </div>
+                        <div class="savebtnDiv">   
+                            <button id="save" class="savebtn">Save and Continue</button>
+                        </div>
+
+                    </div> 
+                    <div id=" deiverySection">   
+                        <div >  
+                            <div id="deliveryHead">   
+                                <h4 class="font16">Delivery Options</h4> 
+                            </div>
+                            <div class="deliverycontainer"> 
+                                 
+                                <div>   
+                                    <div id="deliverySubHeader" class="deliveryoptionsHeader flexrow">   
+                                        <div class="shippaddressdiv wid80"> 
+                                            <div class=" deliverysubheaderimg mlright">   
+                                                <img src="./images/icons8-delivery-truck-64.png" class="imgWidth" alt="">
+                                            </div>  
+                                            
+                                            <span class="wid50">To Ship  - Worldwide Express </span>
+                                        </div>
+                                        <span id="itemsNo">(items)</span>
+                                    </div>
+                                    <div>   
+    
+                                    </div>
+                                    <div class="deliveryOptionstext">   
+                                        <p>You need to enter Shipping Address to see shipping options</p>
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                            
+                        </div>
+                    </div>
+                    <!-- payemnt section -->
+                    <div id="paymentSection">   
+                        <div id="payementHead">   
+                            <h3>Payment</h3>
+                        </div>
+                        <div id="paymentcontainer"> 
+                            <!-- reward section -->
+                            <div id="rewardssection">
+                                <div class="rewardContent">   
+                                    <div class="rewardsHeader">   
+                                        <span class="ruppeicon"><img src="./images/icons8-rupee-50.png" class="rupeecoinspan" alt=""></span>
+                                        <span><h4>REwards and Offers:</h4></span>
+                                        <span class="ruppeicon"><img src="./images/icons8-circled-i-48.png" class="imgWidth" alt=""></span>
+                                    </div>  
+                                    <div id="rewardsBody"> 
+                                        <div  id="greetingsWrap">   
+                                            <div>   
+                                                <div id="greetings">   
+    
+                                                    <span class="geetingText"> <b>Hi, Zidhu </b> — It looks like you’re not a <span><b>VIP Rewards</b> member yet. Join for free and earn <span class="ponits25">25pts</span>!Plus, earn <span class="ponits25">25pts</span> just for sharing your birthdate: </span> </span>
+                                                </div>
+                                                
+                                            </div> 
+                                            <div id="userDob">   
+                                                <input  id="dOb"type="text" name="" class="dobInp" placeholder="mm/dd(optional)">
+                                                <button id="join">JOIN NOW</button>
+                                            </div>
+                                            <div class="">   
+                                               <p class="vipconditiontext">By joining VIP Rewards, you agree to the <a href="" class="anchortext">Program Terms</a> and acknowledge acceptance of the <a href="" class="anchortext">Privacy Policy</a></p>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div> 
+                                  
+                            </div>
+                            <!-- promocode section -->
+                            <div id="promoCodeSection">   
+                                <div class="gifticondiv">
+                                    <span id="promogift" class="giftspan"><img src="./images/gift.png" class="giftimg" alt=""></span>
+                                    <span id="gifttext" class="gifttextdiv"><h5>Do you have a gift card or promo code? </h5></span>
+                                    <span id="promocancel" class="gifttextcancel displaynone cursor"><h5>Cancel </h5></span>
+                                </div>
+                                <div id="promocodeinpdiv" class="displaynone">   
+                                    <div id="proinpinp">  
+                                        <div class="inpflexrow">   
+                                            <input type="text" name="" id="" placeholder="Enter gift card code" class="promoinputsize">
+                                            <button class="promobutton">Apply</button>
+                                        </div> 
+                                        <div class="inpflexrow">   
+                                            <input type="text" name="" id="" placeholder="Enter gift card code" class="promoinputsize">
+                                            <button class="promobutton">Apply</button>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                            <!-- payment method section -->
+                            <div class="paymenthmethod">   
+                                <div class="payementhaed">   
+                                    <h3>PAYMENT METHOD:</h3>
+                                </div>
+                                <div id="cardselect" class="imgWidth">   
+                                    <div class="cardradio wid80">   
+                                        <div class="firstcard">   
+                                            <input id ="debitcard" type="radio" class="radiobtn inpimagecard">
+                                            
+                                        </div>
+                                        <div class="firstcard">   
+                                            <input type="radio" class="" class="radiobtninpimagepaytm">
+                                           
+                                        </div>
+                                        <div class="firstcard">   
+                                            <input type="radio" class="" class="radiobtn inpimagegooglepay">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="padtp20">   
+                                    <div class="cardhead">
+                                        <h4>CARD</h4>
+                                        <span>*required</span>
+                                    </div>
+                                    <div id="cardDetails">   
+                                        <input type="number" name="" id="" class="inpimage cardinpNo" placeholder="Card number*" required>
+                                        <select name="" id="" class="cardinpNo">  
+                                            <option value="" class="opt">MM*</option required>
+                                            <option value="">01</option>
+                                            <option value="">02</option>
+                                            <option value="">03</option>
+                                            <option value="">04</option>
+                                            <option value="">05</option>
+                                            <option value="">06</option>
+                                            <option value="">07</option>
+                                            <option value="">08</option>
+                                            <option value="">09</option>
+                                            <option value="">10</option>
+                                            <option value="">11</option>
+                                            <option value="">12</option>
+                                        </select>
+                                        <select name="" id="" class="cardinpNo" required>  
+                                            <option value="">YY*</option>
+                                            <option value="">2023</option>
+                                            <option value="">2024</option>
+                                            <option value="">2025</option>
+                                            <option value="">2025</option>
+                                            <option value="">2026</option>
+                                            <option value="">2027</option>
+                                            <option value="">2028</option>
+                                            <option value="">2029</option>
+                                            <option value="">2030</option>
+                                            <option value="">2031</option>
+                                            <option value="">2032</option>
+                                            <option value="">2033</option>
+                                        </select>
+                                        <input type="number" value="" class="cardinpNo cvvhelp" placeholder="CVV*" required>
+                                        
+                                    </div>
+                                    <div class="padtp20 savecard">   
+                                        <input type="checkbox" class="mlright">
+                                        <h4>Save Card</h4>
+                                    </div>
+                                    <div class="shippingDetailsFirstsec padtp20 rewardContent ">   
+                                        <h3 id="shipToHead">BILLING ADDRESS:</h3>  
+
+                                        <div class=" bilcheckdiv mbtm6">   
+                                            <input type="checkbox" name="billingaddress" class="mlright" id="billingaddresscheck">
+                                            <h4>My billing name & address are the same as my shipping</h4>
+                                        </div>
+                                        <div  id="billingDetails" class="padtp20">  
+                                             
+                                            
+                                            <form action="" id="submitForm">    
+                                                <div id="shippingDetails">   
+                                                    
+                                                    <div class="flexrow">   
+                                                        <input type="text" id="firstName" class="inputs mbtm" placeholder="First Name*" required> 
+                                                        <input type="text"  id="lastName"  class="inputs mbtm"  placeholder="Last Name*" required>
+                                                    </div>
+                                                    <input type="text" id="CompanyName"  class="inputs mbtm imgWidth"  placeholder="Company Name(Optional)">
+                                                    <input type="text" id="address" class="inputs mbtm imgWidth"  placeholder="type your address to auto-complete*" required>
+                                                    <input type="text" id="appartentNo"  class="inputs mbtm imgWidth"  placeholder="Apt/Suite/Floor">
+                                                    <div class="flexrow">   
+                                                        <input type="text" id="City"  class="inputs mbtm wid50 "  placeholder="City*"required>
+                                                        <input type="text" id="Region"  class="inputs mbtm"  placeholder="Region*" required>
+                                                        <input type="text" id="PostalCode"  class="inputs mbtm"  placeholder="Postal Code*" required>
+                                                    </div>
+                                                    <input type="number" id="Phone Number"  class="inputs mbtm"  placeholder="Phone Number*"required>
+                                                    <div class="padtp20 bilcheckdiv mbtm">   
+                                                        <input type="checkbox" class="mlright">
+                                                        <h4>Save as default billing address</h4>
+                                                    </div>
+                                                     
+                                                </div>
+                                                
+                                            </form>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="" class=" bilcheckdiv mbtm assisst height46">
+                                    <input id="salesAssistchechbox" type="checkbox" class="mlright ">
+                                    <h4 id="slaesassistquery" class="cursor">Did someone assist you with your order?</h4>
+                                    <select name="" id="salesperson" class=" salesperson bilcheckdiv mlright  ">  
+                                        <option value="" id="">---Select a Salesperson---</option>
+                                        <option value=""> Ramesh</option>
+                                        <option value=""> Kuldeep</option>
+                                        <option value=""> Vishal</option>
+                                        <option value=""> Hariom</option>
+                                    </select>
+                                    <span id="salesassistCancel"class="displaynone cursor" id="cancelsaleselect">Cancel</span>
+                                </div>
+                                <div id="" class="assisst">
+                                    <div  class=" billsection">   
+                                        <div class="billTags mbtm6">   
+                                            <div class="billsectionicondiv">   
+                                                <h4>Subtotal</h4>
+                                                <span>  
+                                                    <img src="./images/icons8-help-24.png" alt="">
+                                                </span>
+                                            </div>
+                                            <span>₹</span>
+                                        </div>
+                                        <div class="billTags mbtm6">   
+                                            <h4>Shipping</h4>
+                                            <span>₹</span>
+                                        </div>
+                                        <div class="billTags mbtm6">   
+                                            <h4>Taxes</h4>
+                                            <span>₹</span>
+                                        </div>
+                                        <div class="billTags mbtm6">   
+                                            <h3>Order Total</h3>
+                                            <h3>₹</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="placeOrder" class=" imgWidth padtp20">
+                            
+                                    <p class="condition ">By clicking Place Order you agree to the <br>Big Pocket <a href="" class="anchortext">Terms & Condition</a></p>
+                                    <div >   
+                                        <button class="orderbtn">    
+                                            <span class="lockicon mlright"><img src="./images/lock.png" alt="" class="lockimg"></span>
+                                            <h2>Place Order</h2>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+                <div id="orderdetails">   
+                    <div>   
+                        <div>   <h5>Order Summary</h5></div>
+                        <div><a href=""><img src="" alt=""></a></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer" >    
+            <div class="footer">   
+                <div class="mr20">   
+                    <h5 class="font16">Security 100% Guaranteed</h5>
+                    <p>Your order is safe & secure guarded by state-of-the-art technology.</p>
+                    <div class="customericons">   
+                        <span class="iconfooterspan"><img src="./images/trustedicon.svg" alt="" class="spanimg"></span>
+                        <span class="iconfooterspan"><img src="./images/BBBicon.gif" alt="" class="spanimgb"></span>
+                        <span class="iconfooterspan"><img src="./images/certifiedcustomers.gif" alt="" class="spanimg"></span>
+                    </div>
+                </div>
+                <div class="">   
+                    <h5 class="font16">We Value Your Privacy</h5>
+                    <p>Adorama will not sell or distribute your personal information under any circumstances.</p>
+                    <p><a href=""></a>Read our Privacy Policy</p>
+                </div>
+            </div>
+            <div class="bootomfooter">   
+                <p>@2023 Adorma Camera,Inc.All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="./payment.js"></script>
+</html>

@@ -1,0 +1,600 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=Lilita+One&family=Nunito:wght@200&family=Rubik+Puddles&display=swap%27);");
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.cursor{
+    cursor: pointer;
+}
+#mainContainer{
+    width: 100%;
+    height: 100vh;
+}
+.imgWidth{
+    width: 100%;
+}
+.wid80{
+    width: 80%;
+}
+.wid50{
+    width: 50%;
+}
+.textright{
+    text-align: right;
+}
+#header{
+    width: 100%;;
+}
+.mlright{
+    margin-right: 8px;
+}
+.mbtm6{
+    margin-bottom: 6px;
+}
+.mbtm{
+    margin-bottom: 22px;
+}
+.mr20{
+    margin-right: 20px;
+}
+.padtop{
+    padding-top: 12px;
+}
+.font16{
+    font-size: 16px;
+    font-weight: 600;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redirectContainer{
+    width: 100%;
+    height: 80px;
+    background: transparent linear-gradient(180deg,#00295e 0%,#004387 100%) 0% 0% no-repeat
+}
+#redirectHeader{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#redirect{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#user_NameDiv{
+    width: 45%;
+    text-align: right;
+    color: white;
+    font-size: 20px;
+}
+#imageRedirect{
+    width: 50%;
+}
+.redirectHeader{
+    font-size: 28px;
+
+}
+#imageRedirect>a{
+    width: 100%;
+    display: block;
+}
+#imageRedirect>image{
+ width: 100%;
+ height: 50px;
+}
+.rediretctText{
+    font-size: 28px;
+    
+    text-align: center;
+    font-weight: 600;
+    color:white;
+}
+#contact{
+    width: 100%;
+    
+    box-shadow: 2px 2px #0000001a;
+    
+}
+
+#contact-Wraper{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+#contact-Details{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    
+}
+#cartID{
+    width: 50%;
+}
+.contact-Detailsimage{
+    height: 20px;
+}contact-Details>h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+.textColorB{
+    color:  #06c;
+    font-size: 16px;
+}
+#content_Container{
+    width: 100%;
+}
+#content_DetailsContainer{
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    box-sizing: border-box;
+}
+.shippingDetailsFirstsec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#shipToHead{
+    font-size: 18px;
+    padding-bottom: 12px;
+    font-weight: 700;
+}
+.detailsBorder{
+    border: 1px solid #999;
+    padding: 0 20px;
+}
+.inputs{
+    height: 40px;
+    font-size: 15px;
+    color: #222;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+}
+.savedefault{
+    display: flex;
+    flex-direction: row;
+}
+.savebtnDiv{
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.savebtn{
+    width: 32%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #2787e6;
+    border: none;
+}
+.deliverycontainer{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+#deliveryHead{
+    font-size: 18px;
+    padding-bottom: 12px;
+    font-weight: 700;
+}
+.deliveryoptionsHeader{
+    width: 100%;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #004387;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.deliveryOptionstext{
+    text-align: center;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 15px 0;
+    margin: 20px 3% 20px;
+}
+.deliverysubheaderimg{
+    width: 5%;
+}
+.shippaddressdiv{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+}
+#paymentSection{
+    padding-top: 20px;
+    margin-bottom: 160px;
+}
+#paymentcontainer{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+#payementHead{
+    font-size: 18px;
+    padding-bottom: 12px;
+    font-weight: 700;
+}
+.rewardsHeader{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+.rupeecoinspan{
+    width: 70%;
+}
+.ruppeicon{
+    width: 5%;
+}
+#rewardssection{
+    margin-bottom: 20px;
+    height: auto;
+    padding: 24px  20px ;
+}
+#rewardsBody{
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    padding: 19px 0;
+    box-sizing: border-box;
+    margin-bottom: 22px; 
+}
+.rewardContent{
+    
+    border-bottom: 1px solid #e2e2e2;
+}
+#greetingsWrap{
+    margin-bottom: 20px;
+    padding: 0 17px;
+    height: auto;
+}
+.geetingText{
+    font-size: 15px;
+    line-height: 21px;
+}
+.ponits25{
+    color: #ed5132;
+    font-weight: 700;
+}
+#userDob{
+  
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0 0 0;
+    align-items: center;
+   
+}
+#join{
+    width: 49%;
+    height: 36px;
+    margin: 12px 0 0 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background: transparent linear-gradient(180deg,#fc5d37 0%,#ed5132 49%,#e64525 100%) 0% 0% no-repeat padding-box;
+}
+.dobInp{
+    width: 49%;
+    height: 36px;
+    margin-top: 12px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 0;
+    text-indent: 8px;
+    border-color: #79848e;
+    box-shadow: 0 0 2px #06c;
+}
+.anchortext{
+    color: #06c;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 10px;
+}
+.vipconditiontext{
+    font-size: 10px;
+    color: #222;
+    padding-top: 3px;
+    box-sizing: border-box;
+}
+#promoCodeSection{
+    padding: 0 0 0 0;
+    margin: 10px 20px 20px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.gifticondiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.giftimg{
+    width: 60%;
+}
+.giftspan{
+    width: 10%;
+}
+.gifttextdiv{
+    width: 50%;
+    cursor: pointer;
+}
+.displaynone{
+    display: none;
+}
+.gifttextcancel{
+    width: 30%;
+    
+}
+#promocodeinpdiv{
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+#proinpinp{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inpflexrow{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 48%; 
+}
+.promoinputsize{
+    width: 65%;
+    height: 36px;
+    text-indent: 4px;
+    border-radius: 4px 0 0 0;
+    border: 1px solid #ccc;
+   
+}
+.promobutton{
+    width: 35%;
+    height: 38px;
+    background-color: #06c;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    border-color: #2b3c4e;
+    cursor: pointer;
+}
+.paymenthmethod{
+    margin-bottom: 20px;
+    padding: 24px 20px;
+}
+.payementhaed{
+    padding: 9px 0 20px;
+    color: #222;
+    background: none;
+    box-shadow: none;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.cardradio{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.firstcard{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+}
+.radiobtn{
+    width: 10%;
+}
+.padtp20{
+    padding-top: 20px;
+}
+.cardhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px;
+}
+.cardDetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.inpimage{
+    background: url(./images/icons8-bank-cards-24.png) no-repeat scroll 7px 7px;
+    padding-left:30px;
+    
+}
+
+.inpimagecard{
+    background: url(./images/cardpayment.png) no-repeat scroll 7px 7px;
+    padding-left:30px;
+    background-size: 825px 25px;
+    height: 30px;
+    
+}
+.inpimagepaytm{
+    background: url(./images/g-pay-logo.png) no-repeat scroll 7px 7px;
+    padding-left:30px;
+    background-size: 825px 25px;
+    height: 30px;
+    /* width: 40px; */
+
+}
+.inpimagegooglepay{
+    background: url(./images/cardpayment.png) no-repeat scroll 7px 7px;
+    padding-left:30px;
+    background-size: 825px 25px;
+}
+.cardinpNo{
+    height: 46px;
+    text-indent: 4px;
+    font-size: 15px;
+    color: #222;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#cardDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#cardDetails>input:nth-child(1){
+    width: 30%;
+}
+#cardDetails>select:nth-child(2),
+#cardDetails>select:nth-child(3){
+    width: 15%;
+}
+#cardDetails>input:nth-child(4){
+    width: 20%;
+}
+.cvvhelp{
+    
+        background: url(./images/icons8-help-24.png) no-repeat scroll 7px 7px;
+        padding-left:30px;
+    
+}
+.savecard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 20%;
+}
+.bilcheckdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.assisst{
+    border-bottom: 1px solid #999;
+}
+.salesperson{
+    visibility: hidden;
+}
+.height46{
+    height: 46px;
+}
+.billsection{
+    margin: 0 0 2px auto;
+    width: 60%;
+    font-size: 15px;
+    
+}
+.billsectionicondiv{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.billTags{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#placeOrder{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.orderbtn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 21px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    border-color: #e17f00;
+    background: linear-gradient(180deg,#fc5d37 0%,#ed5132 49%,#e64525 100%);
+}
+.lockicon{
+    height: 100%;
+}
+.lockimg{
+    height: 35%;
+}
+.condition{
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px 20px 20px;
+    background: #f2f2f2;
+}
+.bootomfooter{
+    text-align: center;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    padding: 30px 0;
+    color: #313131;
+}
+.customericons{
+    width: 60%;
+    height: 42px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.iconfooterspan{
+    
+    height: 100%;
+}
+.spanimg{
+    width: 100%;
+    height: 100%;
+}
+.spanimgb{
+    
+    height: 100%;
+}

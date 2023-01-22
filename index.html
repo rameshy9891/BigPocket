@@ -1,334 +1,1056 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- Boxicons -->
-	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-	<!-- My CSS -->
-	<link rel="stylesheet" href="style.css">
-
-	<title>AdminHub</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>big pocket</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
+
 <body>
 
 
-	<!-- SIDEBAR -->
-	<section id="sidebar">
-		<a href="#" class="brand">
-			<i class='bx bxs-smile'></i>
-			<span class="text">Admin Panel</span>
-		</a>
-		<ul class="side-menu top">
-			<li class="active">
-				<a href="index.html">
-					<i class='bx bxs-dashboard' ></i>
-					<span class="text">Dashboard</span>
-				</a>
-				<a href="#">
-					<i class='bx bxs-group' ></i>
-					<span class="text">Team</span>
-				</a>
-			</li>
-		</ul>
-		<ul class="side-menu">
-			<li>
-				<a href="sign_in.html" class="logout">
-					<i class='bx bxs-log-out-circle' ></i>
-					<span class="text">Logout</span>
-				</a>
-			</li>
-		</ul>
-	</section>
-	<!-- SIDEBAR -->
+    <!-- nav -->
+
+    <div id="one">Enjoy
+        5% <span style="color: rgb(193, 233, 14);">OFF†</span>
+        purchases every day with the Adorama Edge Credit Card.
+       <span style="color: rgb(103, 42, 247);"> LEARN MORE ➔ </span></div>
+
+    <!-- link connect -->
 
 
 
-	<!-- CONTENT -->
-	<section id="content">
-		<!-- NAVBAR -->
-		<nav>
-			<i class='bx bx-menu' ></i>
-			<form action="#">
-				<div class="form-input">
-					<input type="search" placeholder="Search...">
-					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
-				</div>
-			</form>
-			<input type="checkbox" id="switch-mode" hidden>
-			<label for="switch-mode" class="switch-mode"></label>
-			<a href="#" class="profile">
-				<img src="img/Picsart_23-01-09_09-28-40-946.jpg">
-			</a>
-		</nav>
-		<!-- NAVBAR -->
 
-		<!-- MAIN -->
-		<main>
-			<div class="head-title">
-				<div class="left">
-					<h1 id="crud">Dashboard</h1>
-					<ul class="breadcrumb">
-						<li>
-							<a href="#">Dashboard</a>
-						</li>
-						<li><i class='bx bx-chevron-right' ></i></li>
-						<li>
-							<a class="active" href="#" id="cr">Home</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div id="container" class="child">
-                <main>
-                    <h2>Product Management
-                    </h2>
-                    <form id="form" method="post">
-                             <div class="form-group">
-                                <label for="fname">Created at:</label>
-                                <br>
-                                <input type="text" name="fname" id="created" placeholder="Created at" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="fname">Image:</label>
-                                <br>
-                                <input type="text" name="fname" id="image" placeholder="Image" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="fname">Name:</label>
-                                <br>
-                                <input type="text" name="fname" id="name" placeholder="Name" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="fname">Processor:</label>
-                                <br>
-                                <input type="text" name="lname" id="processor" placeholder="Processor" required>
-                            </div>
-                        <div class="form-group">
-                            <label for="fname">Temp:</label>
-                                <br>
-                            <input type="text" name="email" id="temp" placeholder="Temp" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="fname">RAM:</label>
-                                <br>
-                            <input type="text" name="pwd" id="ram" placeholder="Ram" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="fname">Storage:</label>
-                                <br>
-                            <input type="text" name="pwd1" id="storage" placeholder="Storage" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="fname">Price:</label>
-                                <br>
-                            <input type="number" name="pwd1" id="price" placeholder="Price" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="fname">ID:</label>
-                                <br>
-                            <input type="number" name="pwd1" id="id" placeholder="ID" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="fname">Brand:</label>
-                                <br>
-                            <input type="text" name="pwd1" id="brand" placeholder="Brand" required>
-                        </div>
-                         
-                        <div class="form-group">
-                            <button type="submit">Add Product</button>
-                        </div>
-                    </form>
-                </main>
-            </div>
-			<div id="container1" class="child">
-				<h2>Product Management
-				</h2>
-				<form id="form1">
-						 <div class="form-group">
-							<label for="fname">ID:</label>
-							<br>
-							<input type="number" name="fname" id="ids" placeholder="Enter ID of Product" required>
-						</div>    
-					<div class="form-group">
-						<button type="submit">Delete Product</button>
-					</div>
-				</form>
-		</div>
-		<div id="container2" class="child">
-            <main>
-                <h2>Updating Product</h2>
-                <form id="form2">
-                    <div class="form-group">
-                        <label for="fname">ID of Product :</label>
-                            <br>
-                        <input type="number" name="pwd1" id="idu" placeholder="ID" required>
-                    </div>
-                         <div class="form-group">
-                            <label for="fname">Created at:</label>
-                            <br>
-                            <input type="text" name="fname" id="createdu" placeholder="Created at">
-                        </div>
-                        <div class="form-group">
-                            <label for="fname">Image:</label>
-                            <br>
-                            <input type="text" name="fname" id="imageu" placeholder="Image">
-                        </div>
-                        <div class="form-group">
-                            <label for="fname">Name:</label>
-                            <br>
-                            <input type="text" name="fname" id="nameu" placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="fname">Processor:</label>
-                            <br>
-                            <input type="text" name="lname" id="processoru" placeholder="Processor">
-                        </div>
-                    <div class="form-group">
-                        <label for="fname">Temp:</label>
-                            <br>
-                        <input type="text" name="email" id="tempu" placeholder="Temp">
-                    </div>
-                    <div class="form-group">
-                        <label for="fname">RAM:</label>
-                            <br>
-                        <input type="text" name="pwd" id="ramu" placeholder="Ram">
-                    </div>
-                    <div class="form-group">
-                        <label for="fname">Storage:</label>
-                            <br>
-                        <input type="text" name="pwd1" id="storageu" placeholder="Storage">
-                    </div>
-                    <div class="form-group">
-                        <label for="fname">Price:</label>
-                            <br>
-                        <input type="number" name="pwd1" id="priceu" placeholder="Price">
-                    </div>
-                    <div class="form-group">
-                        <label for="fname">Brand:</label>
-                            <br>
-                        <input type="text" name="pwd1" id="brandu" placeholder="Brand">
-                    </div>
-                     
-                    <div class="form-group">
-                        <button type="submit">Update Product</button>
-                    </div>
-                </form>
-            </main>
+    <div id="two">
+        <div class="left">
+            <a href=""><h3> BP BUSINESS</h3>
+               </a>
+            <a href=""><h3>BP RENTALS</h3></a>
+            <a href=""> <h3>PRINTIQUE</h3></a>
+            <a href=""> <h3>OURBLOG</h3></a>
+
         </div>
-<div id="todel">
-			<ul class="box-info">
-				<li>
-					<i class='bx bxs-calendar-check' ></i>
-					<span class="text">
-						<h3>1020</h3>
-						<p>New Order</p>
-					</span>
-				</li>
-				<li>
-					<i class='bx bxs-group' ></i>
-					<span class="text">
-						<h3>2834</h3>
-						<p>Visitors</p>
-					</span>
-				</li>
-				<li>
-					<i class='bx bxs-dollar-circle' ></i>
-					<span class="text">
-						<h3>$2543</h3>
-						<p>Total Sales</p>
-					</span>
-				</li>
-			</ul>
-			<div class="table-data">
-				<div class="order">
-					<div class="head">
-						<h3>Team Members</h3>
-						<i class='bx bx-search' ></i>
-						<i class='bx bx-filter' ></i>
-					</div>
-					<table>
-						<thead>
-							<tr>
-								<th>User</th>
-								<th>Joining Date</th>
-								<th>Status</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>Ramesh Kumar</p>
-								</td>
-								<td>16-01-2023</td>
-								<td><span class="status process">Team Lead</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/Picsart_23-01-09_09-28-40-946.jpg">
-									<p>Kuldeep Tiwari</p>
-								</td>
-								<td>16-01-2023</td>
-								<td><span class="status completed">Admin</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/WhatsApp Image 2023-01-21 at 18.27.54.jpeg">
-									<p>Zidhu Nath</p>
-								</td>
-								<td>16-01-2023</td>
-								<td><span class="status pending">Member</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/WhatsApp Image 2023-01-21 at 21.16.55.jpeg">
-									<p>Hariom Verma</p>
-								</td>
-								<td>16-01-2023</td>
-								<td><span class="status pending">Member</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/IMG_20230121_203030.jpg">
-									<p>Vishal Padashwan</p>
-								</td>
-								<td>16-01-2023</td>
-								<td><span class="status pending">Member</span></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<div class="todo">
-					<div class="head">
-						<h3>Todos</h3>
-						<i class='bx bx-plus' ></i>
-						<i class='bx bx-filter' ></i>
-					</div>
-					<ul class="todo-list">
-						<li class="completed">
-							<p>Adding Product</p>
-							<i class='bx bx-plus' id="add"></i>
-						</li>
-						<li class="completed">
-							<p>Updating Product</p>
-							<i class='bx bx-plus' id="update"></i>
-						</li>
-						<li class="not-completed">
-							<p>Deleting Product</p>
-							<i class='bx bx-plus' id="del"></i>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</main>
-		<!-- MAIN -->
-	</div>
-	</section>
-	<!-- CONTENT -->
-	
 
-	<script src="admin.js"></script>
+        <div id="right">
+            <div><img src="./ICON FOR PROJECT/icons8-phone-call-64.png" alt="">
+                <p>9891142028</p></div>
+            
+                <div><img src="./ICON FOR PROJECT/icons8-live-chat-64.png" alt="">
+                    <p>Live Chat</p></div>
+            <div>
+                <img src="./ICON FOR PROJECT/icons8-online-support-50.png" alt="">
+                <h3>Help ▼</h3>
+            </div>
+
+        </div>
+    </div>
+
+      <!-- seach or logo navbar -->
+      <div id="mainnav">
+        <div id="logo">
+            <img src="./logo of project/24.png" alt="">   
+        </div>
+        <div id="mainright">
+          <div>
+            <input id="in" type="text" placeholder="search" >
+        </div>
+            <div id="userside">
+                <div><img style="width: 80%; margin-right: 50px;" src="./ICON FOR PROJECT/icons8-user-80.png" alt=""></div>
+                
+                <div id="sign1">
+                <h6>Sign in</h6>
+                <h5>My Account ▼</h5>
+            </div>
+            <img id="cart1" src="./ICON FOR PROJECT/icons8-shopping-cart-24.png" alt="">
+            </div>
+            <div>
+            
+        </div>
+
+        <!-- hover part of product start here -->
+
+
+        </div>
+    </div>
+    <div id="part4nav">
+
+        <div id="leftforhover">
+            <div>Products ▼</div>
+            <div>Brands ▼</div>
+            <div>Used ▼</div>
+            <div>Deals ▼</div>
+        </div>
+
+        <div id="rightforhover">
+            <a href="deal_page.html">Deal of the Day</a>
+            <a href="credit-card.html">Big Pocket Credit Card</a>
+            <a href="vip-card.html">VIP Rewards</a>
+            <a href="gift_card.html">Gift Cards</a>
+            <a href="student.html">Students</a>
+
+     
+        </div>
+    </div>
+
+    <!-- middle part for background image -->
+    <div id="bigimage">
+
+
+
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./big background img/36471Fujifilm-XT5-Hero-Desktop-Stock@2x_27268.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./big background img/36471Hero-Lumix-S5II-Desktop@2x_10419.webp"></div>
+      <div class="swiper-slide"><img src="./big background img/36471Nikon-Z9-In-Stock-Hero-Desktop@2x_28627.webp"></div>
+     
+      <div class="swiper-slide"><img src="./big background img/36471Hero-New-Year-New-You-Desktop@2x_02759.jpg"></div>
+      
+      <div class="swiper-slide"><img src="./big background img/36471Hero-Lumix-S5II-Desktop@2x_10419.webp"></div>
+     
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  
+  </div>
+
+
+    </div>
+
+    <div id="specialdeal">
+
+        <div ><h1 style="color: aliceblue;">Deal of the Day</h1>
+        <h4 style="color: aliceblue;">CHECK BACK FOR NEW DEALS EVERY DAY</h4>
+    </div>
+        <div>
+       
+<!-- start timer -->
+
+    <div id="div2">
+        <div style="background-color: #fff;">
+        <img style=" width: 20%; margin-left: 40%; " src="https://www.adorama.com/images/Large/gosl150y.jpg" alt="Camera">
+    </div>
+        <div >
+           <div style="background-color: #fff; padding-right: 6px;"><h6> <a style="text-decoration: none;" href="productpage.html">Godox SL Series SL150Y  150W Yellow LED Video <br> Light, 3300K Color Temperature  </a>
+           </h6>
+         
+         
+           <button class="cartbtn"> <a style="text-decoration: none; color: #fff;" href="./productpage.html"> View Deal</a></button>
+        </div>
+        </div>
+        <div id="count-down">
+           
+            <div style="display: flex;" id="time">
+            <div class="timer-cont">
+                <h2 id="hour">12</h2>
+                <h5>Hours</h5>
+               
+            </div>
+            <div class="timer-cont">
+                <h2 id="minute">59</h2>
+                <h5>minutes</h5>
+                
+            </div>
+            <div class="timer-cont">
+                <h2 id="second">60</h2>
+                <h5>seconds</h5>
+                
+            </div>
+        </div>
+      
+        </div>
+    </div>
+
+
+
+
+<!-- end timer -->
+
+
+        </div>
+       
+
+    </div>
+
+    <div>
+
+    </div>
+
+    <div id="perent1">
+        <div id="one1">
+
+            <img id="cup" src="./ICON FOR PROJECT/icons8-trophy-50.png" alt="">
+
+            <h1 style="color: white;">OUR TOP DEALS</h1>
+
+
+        </div>
+
+        <div id="two2">
+
+
+        
+        
+        <div><img src="./top sales images/boslmbl.jpg" alt="">
+        <a style="text-decoration: none; color: #004387;" href="productpage.html"> <br> Fujifilm X-T4 Mirrorless <br> Digital Camera Body, Silver</a>
+        <div id="useflextop">
+        <div><img style="width: 30%;" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp"  alt=""></div>
+        <div><h6 >(111)</h6></div>
+        
+    </div>
+    <h3>₹2500.00</h3>
+    <p>Regular price : ₹<span style="text-decoration:line-through;">3000.70</span></p>
+    <p>You Saved: ₹500.50 (15%)</p>
+    
+
+        
+        </div>
+        <div><img src="./top sales images/bqtk700sti.jpg" alt="">
+        
+            <a style="text-decoration: none; color: #004387;" href="productpage.html"> <br> Fujifilm X-T4 Mirrorless <br> Digital Camera Body, Silver</a>
+            <div id="useflextop">
+            <div><img style="width: 30%;" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp"  alt=""></div>
+            <div><h6 >(12)</h6></div>
+            
+        </div>
+        <h3>₹10000.00</h3>
+        <p>Regular price : ₹<span style="text-decoration:line-through;">11500.00</span></p>
+        <p>You Saved: ₹1500.00 (24%)</p>
+        
+        
+        </div>
+        <div><img src="./top sales images/gphero10hb.jpg" alt="">
+        
+            <a style="text-decoration: none; color: #004387;" href="productpage.html"> <br> Fujifilm X-T4 Mirrorless <br> Digital Camera Body, Silver</a>
+        <div id="useflextop">
+        <div><img style="width: 30%;" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp"  alt=""></div>
+        <div><h6 >(13)</h6></div>
+        
+    </div>
+    <h3>₹910.00</h3>
+    <p>Regular price : ₹<span style="text-decoration:line-through;">1190.00</span></p>
+    <p>You Saved: $190.00 (18%)</p>
+    
+        
+        </div>
+        <div><img src="./top sales images/ifjxt4s.jpg" alt="">
+        
+            <a style="text-decoration: none; color: #004387;" href="productpage.html"> <br> Fujifilm X-T4 Mirrorless <br> Digital Camera Body, Silver</a>
+            <div id="useflextop">
+            <div><img style="width: 30%;" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp"  alt=""></div>
+            <div><h6 >(25)</h6></div>
+            
+        </div>
+        <h3>₹4000.00</h3>
+        <p>Regular price : ₹<span style="text-decoration:line-through;">5100.00</span></p>
+        <p>You Saved: ₹1100.00 (28%)</p>
+        
+
+        </div>
+        <div><img src="./top sales images/insta360g264.jpg" alt="">
+        
+            <a style="text-decoration: none; color: #004387;" href="productpage.html"> <br> Fujifilm X-T4 Mirrorless <br> Digital Camera Body, Silver</a>
+            <div id="useflextop">
+            <div><img style="width: 30%;" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp"  alt=""></div>
+            <div><h6 >(169)</h6></div>
+            
+        </div>
+        <h3>₹7000.00</h3>
+        <p>Regular price : ₹<span style="text-decoration:line-through;">15900.00</span></p>
+        <p>You Saved: ₹8900.00 (55%)</p>
+        
+        </div>
+        <!-- <div><img src="./top sales images/kpr625fab.jpg" alt="">
+        
+            <a style="text-decoration: none; color: #004387;" href=""> <br> Fujifilm X-T4 Mirrorless <br> Digital Camera Body, Silver</a>
+            <div id="useflextop">
+            <div><img style="width: 30%;" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp"  alt=""></div>
+            <div><h6 >(1000)</h6></div>
+            
+        </div>
+        <h3>₹20050.00</h3>
+        <p>Regular price : ₹<span style="text-decoration:line-through;">3000.00</span></p>
+        <p>You Saved: $9950.00 (35%)</p>
+        
+        </div> -->
+        <!-- <div><img src="./top sales images/nkz9.jpg" alt=""></div> -->
+        <!-- <div><img src="./top sales images/pchcvx981k.jpg" alt=""></div>
+        <div><img src="./top sales images/yaydp144b.jpg" alt=""></div>
+        <div><img src="./top sales images/boslmbl.jpg" alt=""></div>
+        <div><img src="./top sales images/bqtk700sti.jpg" alt=""></div>
+        <div><img src="./top sales images/gphero10hb.jpg" alt=""></div>
+        <div><img src="./top sales images/ifjxt4s.jpg" alt=""></div>
+        <div><img src="./top sales images/insta360g264.jpg" alt=""></div>
+        <div><img src="./top sales images/kpr625fab.jpg" alt=""></div>
+        <div><img src="./top sales images/nkz9.jpg" alt=""></div> -->
+
+    </div>
+       
+    </div>
+
+    <!--  -->
+    <div id="div3">
+        <!-- slidding work is still pending -->
+        <h2>
+            SHOP DEALS BY CATEGORY
+        </h2>
+        <div id="category">
+            <div>
+                <img src="https://www.adorama.com/col/images/category-icons/icon-category-cameras.png" alt="">
+                <h3>Cameras</h3>
+            </div>
+            <div>
+                <img src="https://www.adorama.com/col/images/category-icons/icon-category-lenses.png" alt="">
+                <h3>Lenses</h3>
+            </div>
+            <div>
+                <img src="https://www.adorama.com/col/images/category-icons/icon-category-lighting.png" alt="">
+                <h3>Lighting</h3>
+            </div>
+            <div>
+                <img src="https://www.adorama.com/col/images/category-icons/icon-category-computers.png" alt="">
+                <h3>Computers</h3>
+            </div>
+            <div>
+                <img src="https://www.adorama.com/col/images/category-icons/icon-category-video.png" alt="">
+                <h3>Videos</h3>
+            </div>
+            <div>
+                <img src="https://www.adorama.com/col/images/category-icons/icon-category-audio.png" alt="">
+                <h3>Audio</h3>
+            </div>
+            <div>
+                <img src="https://www.adorama.com/col/images/category-icons/icon-category-hometheater.png" alt="">
+                <h3>Home Electronics</h3>
+            </div>
+            <div>
+                <img src="https://www.adorama.com/col/images/category-icons/icon-category-homeoffice.png" alt="">
+                <h3>Home Office</h3>
+            </div>  <div>
+                <img src="https://www.adorama.com/col/images/category-icons/icon-category-photoacc.png" alt="">
+                <h3>Photo Accessories</h3>
+            </div>  <div>
+                <img src="https://www.adorama.com/col/images/category-icons/icon-category-drones.png" alt="">
+                <h3>Drones</h3>
+            </div><div>
+                <img src="https://www.adorama.com/col/images/category-icons/icon-category-gaming.png" alt="">
+                <h3>Gaming</h3>
+            </div><div>
+                <img src="https://www.adorama.com/col/images/category-icons/icon-category-music.png" alt="">
+                <h3>Music</h3>
+            </div>
+        </div>
+    </div>
+
+   <h3 style="margin-top: 50px; margin-bottom: 20px;">INSPIRED BY YOUR SHOPPING TRENDS</h3>
+
+   <div id="insprireddiv">
+    <div>
+        <img src="https://www.adorama.com/images/product/acmgnr3lla.jpg" alt="">
+
+        <div id="useflexrate">
+            <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+            <h6 style="margin-left: 10px;">(700)</h6>
+        </div>
+
+        <a  href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+        <h4>₹800000</h4>
+        <p>TOP RATED GEAR </p>
+
+        
+     
+
+
+    </div>
+
+    <div>
+        <img src="https://www.adorama.com/images/product/ihp683j9taba.jpg" alt="">
+
+        <div id="useflexrate">
+            <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+            <h6 style="margin-left: 10px;">(520)</h6>
+        </div>
+
+        <a href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+        <h4>₹770000</h4>
+        <p>TOP RATED GEAR </p>
+
+        
+     
+
+
+    </div>
+
+    <div>
+        <img src="https://www.adorama.com/images/product/ihp65p62aaab.jpg" alt="">
+
+        <div id="useflexrate">
+            <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+            <h6 style="margin-left: 10px;">(300)</h6>
+        </div>
+
+        <a href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+        <h4>₹400000</h4>
+        <p>TOP RATED GEAR </p>
+
+        
+     
+
+
+    </div>
+
+    <div>
+        <img src="https://www.adorama.com/images/product/ihp6m731utab.jpg" alt="">
+
+        <div id="useflexrate">
+            <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+            <h6 style="margin-left: 10px;">(30)</h6>
+        </div>
+
+        <a href="./productpage.html">Hp Zbook Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+        <h4>₹300000</h4>
+        <p>TOP RATED GEAR </p>
+
+        
+     
+
+
+    </div>
+
+    <div>
+        <img src="https://www.adorama.com/images/product/ih450m3aa.jpg" alt="">
+
+        <div id="useflexrate">
+            <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+            <h6 style="margin-left: 10px;">(37)</h6>
+        </div>
+
+        <a href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+        <h4>₹356000</h4>
+        <p>TOP RATED GEAR </p>
+
+        
+     
+
+
+    </div>
+
+    <div>
+        <img src="https://www.adorama.com/images/product/acmgn63lla1.jpg" alt="">
+
+        <div id="useflexrate">
+            <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+            <h6 style="margin-left: 10px;">(40)</h6>
+        </div>
+
+        <a href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+        <h4>₹563000</h4>
+        <p>TOP RATED GEAR </p>
+
+        
+     
+
+
+    </div>
+
+ 
+   </div>
+
+   <!-- new releases here start same css both -->
+
+
+   <h3 style="margin-top: 80px; margin-bottom: 20px;">NEW RELEASES</h3>
+
+   <div id="insprireddiv">
+    <div>
+        <img src="https://www.adorama.com/images/product/ifjxt5s.jpg" alt="">
+
+        <div id="useflexrate">
+            <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+            <h6 style="margin-left: 10px;">(456)</h6>
+        </div>
+
+        <a  href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+        <h4>₹900000</h4>
+        <p>TOP RATED GEAR </p>
+
+        
+     
+
+
+    </div>
+
+    <div>
+        <img src="https://www.adorama.com/images/product/nkz9.jpg" alt="">
+
+        <div id="useflexrate">
+            <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+            <h6 style="margin-left: 10px;">(535)</h6>
+        </div>
+
+        <a href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+        <h4>₹770000</h4>
+        <p>TOP RATED GEAR </p>
+
+        
+     
+
+
+    </div>
+
+    <div>
+        <img src="https://www.adorama.com/images/product/acmmfj3lla.jpg" alt="">
+
+        <div id="useflexrate">
+            <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+            <h6 style="margin-left: 10px;">(300)</h6>
+        </div>
+
+        <a href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+        <h4>₹400000</h4>
+        <p>TOP RATED GEAR </p>
+
+        
+     
+
+
+    </div>
+
+    <div>
+        <img src="https://www.adorama.com/images/product/acmnw83lla.jpg" alt="">
+
+        <div id="useflexrate">
+            <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+            <h6 style="margin-left: 10px;">(30)</h6>
+        </div>
+
+        <a href="./productpage.html">Hp Zbook Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+        <h4>₹380000</h4>
+        <p>TOP RATED GEAR </p>
+
+        
+     
+
+
+    </div>
+
+    <div>
+        <img src="https://www.adorama.com/images/product/ihp1j9c1aara.jpg" alt="">
+
+        <div id="useflexrate">
+            <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+            <h6 style="margin-left: 10px;">(37)</h6>
+        </div>
+
+        <a href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+        <h4>₹356000</h4>
+        <p>TOP RATED GEAR </p>
+
+        
+     
+
+
+    </div>
+
+    <div>
+        <img src="https://www.adorama.com/images/product/iso2070.jpg" alt="">
+
+        <div id="useflexrate">
+            <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+            <h6 style="margin-left: 10px;">(40)</h6>
+        </div>
+
+        <a href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+        <h4>₹487000</h4>
+        <p>TOP RATED GEAR </p>
+
+        
+     
+
+
+    </div>
+
+ 
+   </div>
+
+   <!-- image part start -->
+
+
+   <div id="imgbig"> <img src="https://www.adorama.com/images/cms/36471Hero-Fujifilm-Instax-Mini-Desktop@2x_77486.jpg" alt="">
+</div>
+
+<div id="bigimgflexuse">
+    <div>
+        <img src="https://www.adorama.com/images/cms/36471Spotlight-Slidgo-X10-Desktop_72166.jpg" alt="">
+        <h1>Ride into the New Year with Style!</h1>
+        <h6>NEW X10 Electric Scooter with Dual-drive motors - $999 for a limited time, a $400 savings! While supples last.</h6>
+        
+        <a style="margin-top: 30px; text-decoration: none;" href="">Shoop Now</a>
+    </div>
+
+    <div>
+        <img src="https://www.adorama.com/col/CDP/Sennhesier-IE200-AM-Spotlight-Desktop.jpg" alt="">
+        <h1>A New World Of Sound</h1>
+        <h6>The IE200 Earbuds provide a balanced, high-fidelity sound available to everyone, in any location. Designed for both <br> the lifelong audiophile or for anyone wanting better sound on the road</h6>
+        <a href="./productpage.html" style="text-decoration: none;"> Pre-Order Now</a>
+    </div>
+</div>
+
+
+
+
+<h3 style="margin-top: 80px; margin-bottom: 20px;">SPONSORED PRODUCTS</h3>
+
+<div id="insprireddiv">
+ <div>
+     <img src="https://www.adorama.com/images/product/gvmpr150r.jpg" alt="">
+
+     <div id="useflexrate">
+         <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+         <h6 style="margin-left: 10px;">(456)</h6>
+     </div>
+
+     <a  href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+     <h4>₹900000</h4>
+     <p>TOP RATED GEAR </p>
+
+     
+  
+
+
+ </div>
+
+ <div>
+     <img src="https://www.adorama.com/images/product/gvmsd300s.jpg" alt="">
+
+     <div id="useflexrate">
+         <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+         <h6 style="margin-left: 10px;">(535)</h6>
+     </div>
+
+     <a href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+     <h4>₹770000</h4>
+     <p>TOP RATED GEAR </p>
+
+     
+  
+
+
+ </div>
+
+ <div>
+     <img src="https://www.adorama.com/images/product/gvmsd200d.jpg" alt="">
+
+     <div id="useflexrate">
+         <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+         <h6 style="margin-left: 10px;">(300)</h6>
+     </div>
+
+     <a href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+     <h4>₹400000</h4>
+     <p>TOP RATED GEAR </p>
+
+     
+  
+
+
+ </div>
+
+ <div>
+     <img src="https://www.adorama.com/images/product/sr3751.jpg" alt="">
+
+     <div id="useflexrate">
+         <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+         <h6 style="margin-left: 10px;">(30)</h6>
+     </div>
+
+     <a href="./productpage.html">Hp Zbook Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+     <h4>₹380000</h4>
+     <p>TOP RATED GEAR </p>
+
+     
+  
+
+
+ </div>
+
+ <div>
+     <img src="https://www.adorama.com/images/product/weuwbp7.jpg" alt="">
+
+     <div id="useflexrate">
+         <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+         <h6 style="margin-left: 10px;">(37)</h6>
+     </div>
+
+     <a href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+     <h4>₹356000</h4>
+     <p>TOP RATED GEAR </p>
+
+     
+  
+
+
+ </div>
+
+ <div>
+     <img src="https://www.adorama.com/images/product/weuslp7k.jpg" alt="">
+
+     <div id="useflexrate">
+         <img width="35%" src="https://miro.medium.com/max/828/1*tAZ0DsBYgXTsn2BBLxlIIg.webp" alt="">
+         <h6 style="margin-left: 10px;">(40)</h6>
+     </div>
+
+     <a href="./productpage.html">Apple Mac Mini Desktop <br> with 8-Core CPU <br> GPU, 8GB Memory...</a>
+     <h4>₹487000</h4>
+     <p>TOP RATED GEAR </p>
+
+     
+  
+
+
+ </div>
+
+
+</div>
+ 
+ <div id="textonimg">
+
+    <div>
+<div>
+    <img src="https://www.adorama.com/col/UIimages/homepage/evergreen-banners/Callout_Image_Used.jpg" alt="">
+
+</div>
+<div style="margin-top: -200px; color: aliceblue; margin-left: 10px;">
+    <h1 >Shop Pre-Owned</h1>
+       <h3> Save Money On Used, Open Box, <br> and Refurbished Equipment & <br> Electronics.</h3>
+</div>
+</div>
+
+<div>
+    <div>
+        <img src="https://www.adorama.com/col/UIimages/homepage/evergreen-banners/Callout_Image_Sell.jpg" alt="">
+    
+    </div>
+    <div style="margin-top: -200px; color: aliceblue; margin-left: 10px;">
+        <h1 >Sell or Trade</h1>
+           <h3>Sell or Trade
+            Exchange Your Gear For Used <br> Items, Cash or Credit Toward <br> Future Purchases.</h3>
+    </div>
+    </div>
+
+</div>
+
+
+<div id="textonimg1">
+
+    <div>
+<div>
+    <img src="https://www.adorama.com/col/UIimages/homepage/evergreen-banners/Callout_Students.jpg" alt="">
+
+</div>
+<div style="margin-top: -300px; color: rgb(17, 17, 17); margin-left: 10px;">
+    <h1 >Students <br> GearUP</h1>
+       <h3>Exclusive student discounts on <br> thousands of products in <br> photography, video, audio, & <br> more.</h3>
+</div>
+</div>
+
+<div>
+    <div>
+        <img src="https://www.adorama.com/col/UIimages/homepage/evergreen-banners/Callout_Rentals.jpg" alt="">
+    
+    </div>
+    <div style="margin-top: -300px; color: rgb(17, 17, 17); margin-left: 10px; ">
+        <h1 >Sell or Trade</h1>
+           <h3>Sell or Trade
+            Exchange Your Gear For Used <br> Items, Cash or Credit Toward <br> Future Purchases.</h3>
+    </div>
+    </div>
+
+</div>
+
+
+
+<div id="textonimg2">
+
+    <div id="pankaj">
+<div>
+    <img  src="https://www.adorama.com/col/UIimages/homepage/evergreen-banners/Callout_Image_ABS.jpg" alt="">
+
+</div>
+<div style="margin-top: -300px; color: rgb(17, 17, 17); margin-left: 10px;">
+    <h1 style="color: rgba(0, 0, 0, 0.733);">Big Pocket  <br> Business</h1>
+       <h3 style="color: rgb(0, 0, 0);">Schedule a consultation, browse <br> financing options & purchase <br> gear for your corporate, <br> educational or government <br> institution.</h3>
+       
+</div>
+</div>
+
+<div id="pankaj1">
+    <div>
+        <img src="https://www.adorama.com/col/UIimages/homepage/evergreen-banners/Callout_Printique.jpg" alt="">
+    
+    </div>
+    <div style="margin-top: -300px; color: rgb(17, 17, 17); margin-left: 10px; ">
+        <h1 style="color: aliceblue;" >Sell or Trade</h1>
+           <h3 style="color: aliceblue;" >Sell or Trade
+            Exchange Your Gear For Used <br> Items, Cash or Credit Toward <br> Future Purchases.</h3>
+    </div>
+    </div>
+
+</div>
+
+<!-- logo div start here -->
+
+<h3 style="margin-top: 7%;">FEATURED BRANDS</h3>
+<div id="logodiv">
+    <div>
+        <img style="margin-top: 20%;"src="./ICON FOR PROJECT/Apple-Logo-Transparent-PNG.png" alt="">
+    </div>
+
+    <div>
+        <img style="margin-top: 40%;" src="./ICON FOR PROJECT/Canon_logo.png" alt="">
+    </div>
+
+    <div>
+        <img style="margin-top: 28%;"  src="./ICON FOR PROJECT/GoPro-Logo.png" alt="">
+    </div>
+
+    <div>
+        <img style="margin-top: 10%;" src="./ICON FOR PROJECT/HP-logo-3.png" alt="">
+    </div>
+
+    <div>
+        <img src="./ICON FOR PROJECT/Sony-Pictures-logo-640x993.png" alt="">
+    </div>
+
+    <div>
+        <img style="margin-top: 40%;" src="./ICON FOR PROJECT/th.jpg" alt="">
+    </div>
+
+    <div>
+        <img style="margin-top: 40%;" src="./ICON FOR PROJECT/logo_sigma.png" alt="">
+    </div>
+
+    <div>
+        <img style="margin-top: 40%;" src="./ICON FOR PROJECT/Microsoft-Logo.png" alt="">
+    </div>
+    
+
+
+</div>
+
+<h3 style="margin-top: 5%;">WATCH. CREATE. INSPIRE. </h3>
+
+<div id="youtubelink">
+    <a href="https://www.youtube.com/watch?v=NSgXKmI332I">
+        <div>
+            <img src="./forprosceenshots/Screenshot (89).png" alt="">
+        </div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=NSgXKmI332I">
+        <div>
+            <img src="./forprosceenshots/Screenshot (90).png" alt="">
+        </div>
+    </a>
+
+
+    <a href="https://www.youtube.com/watch?v=NSgXKmI332I">
+        <div>
+            <img src="./forprosceenshots/Screenshot (92).png" alt="">
+        </div>
+    </a>
+
+    
+    
+</div>
+
+
+<h3 style="margin-top: 0.5%;">NEWS & REVIEWS FROM 42 WEST</h3>
+
+<div id="lastimg">
+    <div>
+        <img src="./big background img/one.webp" alt="">
+        <h4>Apple Event In triduces Mac Studio,<br>studio Display,ipad 
+        Air, & More</h4>
+    </div>
+
+    <div>
+        <img src="./big background img/two.webp" alt="">
+        <h4>Apple Offers Mac Mini, MacBook <br> Pro With M2 Pro & M2 Max Chips</h4>
+    </div>
+    <div>
+        <img src="./big background img/three.webp" alt="">
+        <h4>Sony FE20-70mm F/4 G Zoom Lens: <br> Hands-On Review</h4>
+    </div>
+    <div>
+        <img src="./big background img/last.webp" alt="">
+        <h4>New Sigma 60-600mm Lens Announced <br> for Sony and Leice User</h4>
+    </div>
+</div>
+
+<!-- last part of the project flutter part -->
+<div id="fluttertext">
+    <div><h1>Photography Equipment, Video Gear, and Electronics</h1></div>
+    <div><h4>We are the world's only full-service destination for photo, video and electronics. We're more than a camera store—we offer the best selection and prices on professional <br> photography and video gear, pro-audio, and consumer electronics such as home theaters , desktop computers, laptops, iPads, home office equipment and more. Equip <br> your creativity with the best & newest Mirrorless, Point & Shoot, and DSLR photography equipment from brands like Sony, Canon and Nikon, or shop for the latest in <br> smart tech, gaming, drones, musical instruments and recording studio gear.</h4></div>
+    
+
+</div>
+
+<div id="mychangef" class="footer">
+    <!-- this footer will be same for all tabs -->
+    <!-- f1= footer's first div -->
+    <div id="f1">
+        <p>Equipping your creativity, since 1974. <a style="color: white;" href="">Read our story.</a></p>
+    </div>
+
+    <div id="f2">
+        <p>800-223-2500</p>
+        <p>Help Center</p>
+        <p>NYC Store Hours</p>
+        <p>Live Chat</p>
+    </div>
+
+    <div id="f3">
+        <div>
+            <h2>How Are We Doing?</h2>
+            <p>Your opinions and comments are valuable to us. <a href="">We'd love to get your feedback!</a> </p>
+            <h2>Connect With Us</h2>
+            <div class="social">
+                <img src="https://i.pinimg.com/736x/d6/4a/94/d64a94740f46a88bb98cde64680f945f.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrIbiofxGclX20CWBDtpmjOcbbuqEJS6PrSQ&usqp=CAU" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuO7Qdb2BWHsggMHHMY-NRmu35zad-BT-O9w&usqp=CAU" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo9N9kOKxWSVdhxvqpOBl5tGXlic5RcbugQw&usqp=CAU" alt="">
+            </div>
+        </div>
+        <div>
+            <h2>Get Free Shipping On Your First Purchase*</h2>
+            <p>When you sign up for Big Pocket News and Special Offers. Plus, Rewards members earn <span style="color: #003773;">25 points</span> just for signing up!</p>
+            <a style="color: #003773; text-decoration: none;" href="">View More Stories...</a>
+        </div>
+        <div>
+            <h2>Stay in the Know</h2>
+            <p>Get exclusive access to expert tips and special offers. Plus, VIP Rewards members earn 25 Points!</p>
+            <input type="email" placeholder="Email Address">
+            <button>Sign Up</button>
+        </div>
+    </div>
+    <div id="f4">
+        <div>
+            <h2>Who We Are</h2>
+            <a href="">About Big Pocket</a>
+            <br><a href="">Our History</a><br><a href="">Creator Highlights</a><br><a href="">Big Pockets Reviews</a><br><a href="">Map & Directions</a><br><a href="">Events</a><br><a href="">Learning Center</a><br><a href="">Gift Cards </a><br><a href="">Brands</a><br><a href="">Affiliate Program</a><br><a href="">Careers</a>
+        </div>
+        <div>
+            <h2>Special Programs</h2>
+            <a href="">Corporate</a><br><a href="">Education</a><br><a href="">Government</a><br><a href="">Big Pocket Edge Credit Card</a><br><a href="">VIP Rewards</a><br><a href="">Students</a><br><a href="">Big Pocket Protect</a>
+            <h2>
+                More Services
+            </h2>
+            <a href="">Photo Printing</a><br><a href="">Camera Rentals</a><br><a href="">Sell Used Equipment</a><br><a href="">Authorized Apple Service</a>
+        </div>
+        <div>
+            <h2>How Can We Help?</h2>
+            <a href="">Customer Service </a><br><a href="">Track Your Order</a><br><a href="">Shipping & Delivery</a><br><a href="">In-Store Pickup</a><br><a href="">International Orders</a><br><a href="">Return Policy</a><br><a href="">Contact Us</a><br><a href="">Warranties</a><br><a href="">Accessibility Policy</a>
+        </div>
+    </div>
+    <div id="f6">
+        <img width="124" height="116" src="https://www.adorama.com/col/UIimages/footer-store-pin-ado.png" alt="map">
+        <div>
+            <h3>Visit Big Pocket</h3>
+            <p>Come visit our New York City store in the Flatiron/Chelsea district.</p>
+            <a href="">Location and Store hours</a>
+        </div>
+        <img width="100" height="50" src="https://cdn.ywxi.net/meter/adorama.com/202.svg?ts=1673954952225&l=en-US" alt="">
+        <img width="31" height="50" src="https://adorama.com/artworks2/bbbseal3.gif" alt="">
+        <img width="80" height="47" src="//medals.bizrate.com/medals/dynamic/22495_medal.gif" alt="">
+        <img width="80" height="47" src="https://medals.bizrate.com/awards/horizontal/22495_coe.gif" alt="">
+    </div>
+    <div id="f5">
+    
+        <p>Copyright Big Pocket Camera, Inc. All rights reserved. <br> Privacy PolicyTerms of Use
+            42 West 18th Street New York,<br> NY 10011 (directions) 800.223.2500</p>
+    </div>
+</div>
+</div>
+
+<!-- // swiper js -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+ 
+<script>
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+});
+</script>
+
+
+
 </body>
+
+
+
+
+
+
+<script>
+    // this script is for timer (Deal of the day)
+    let hourheading = document.getElementById("hour")
+    let minuteheading = document.getElementById("minute")
+    let secondheading = document.getElementById("second")
+
+    let hour =5;
+    let minute = 59;
+    let seconds = 59;
+
+    setInterval(()=>{
+        seconds--;
+        if(seconds==0){
+            minute--
+            seconds = 59
+            if(minute==00){
+                hour--;
+                minute=59;
+                hourheading.innerText =  hour;
+            }
+            minuteheading.innerText = minute;
+        }
+        secondheading.innerText = seconds
+
+    },1000)
+
+
+
+   
+
+    
+</script>
+
+
 </html>

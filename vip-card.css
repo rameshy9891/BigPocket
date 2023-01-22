@@ -1,0 +1,285 @@
+.greareward{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 50px 0px;
+}
+.greareward div{
+width: 33%;
+}
+.grea-reward{
+    text-align: center;
+    /* justify-content: center; */
+    padding: 2% 25px;
+    background-color: #fff;
+}
+
+#vip-benfits{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.vip-grid-container{
+    display: grid;
+    grid-template-columns: 300px 200px 200px 200px;
+    column-gap: 10px;
+    row-gap: 5px;
+    padding: 50px 100px;
+    /* margin: auto; */
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.vip-grid-container div{
+    padding: 30px;
+    background: white;
+}
+
+#vip-pro>p{
+    font: normal normal normal 18px/27px Lato;
+    font-size: clamp(14px, 3vw, 18px);
+    line-height: clamp(23px, 3vw, 27px);
+    letter-spacing: clamp(2.24px, 1vw, 7.56px);
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+#vip-pro{
+    background-image: url("https://www.adorama.com/Artworks2/rewards-landing-page/pro-background-desktop.jpg");
+    color: white;
+    text-align: center;
+}
+
+.grid-vip{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+.grid-vip div{
+    background: #000000C1 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF40;
+    border-radius: 6px;
+    padding: clamp(15px, 3vw, 30px) clamp(2px, 1vw, 15px);
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    gap: 10px;
+}
+
+.grid-vip hr{
+    left: 12%;
+    right: 12%;
+    bottom: 0;
+    background-color: #707070;
+}
+.grid-vip h3{
+    font: normal normal 900 21px/25px Lato;
+    font-size: clamp(17px, 3vw, 21px);
+    line-height: clamp(21px, 3vw, 25px);
+    color: #FFC60A;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.title-block{
+    display: flex;
+    flex-flow: column;
+    max-width: 1400px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    vertical-align: baseline;
+    background: transparent linear-gradient(289deg, #00144C 0%, #0057AD 100%) 0% 0% no-repeat padding-box;
+}
+.title-block>div{
+    display: flex;
+    gap: 15px;
+    margin: 20px 100px;
+}
+.title-block>div>div{
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.grid-points>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-weight: 900;
+    
+    line-height: 27px;
+    font-family: 'Lato';
+    text-align: center;
+    /* display: block; */
+    margin-bottom: 15px;
+    margin-top: 41px; 
+}
+.grid-points>div>div{
+    padding: 25px;
+    border-right: 2px solid ;
+    border-bottom: 1px solid #004387;
+}
+.grid-points b{
+    color: #00144C;
+    font-size: 3pc;
+}
+.grid-points{
+    margin: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+/* sign in css */
+#mains{
+    display: flex;
+    margin: auto;
+    margin-top:10vh;
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+    background-repeat: no-repeat;
+    /* background-color: #004387; */
+    background-size: cover;
+}
+#bp{
+    margin: 50px;
+    background-color: #004387;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding-top: 200px;
+    color: white;
+    font-size: 25px;
+    margin-right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+#bp a{
+    text-decoration: none;
+    color: white;
+}
+#bp img{
+    width: 100%;
+}
+#bp h3{
+    margin-top: 100px;
+}
+#container main h2{
+    font-size: 40px;
+}
+.form-group{
+    font-size: 24px;
+}
+#container{
+    margin: 50px;
+    background-color:whitesmoke;
+    padding: 40px;
+    line-height: 44px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-left: 0px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#flname .form-group:nth-child(2){
+    padding-inline: 20px;
+}
+#flname input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+.form-group input{
+    width: 420px;
+    height: 40px;
+    border-radius: 5px;
+}
+::placeholder{
+    font-size: 22px;
+    padding-left: 10px;
+}
+#submit{
+    font-size: 28px;
+    width: 420px;
+    padding-top: 5px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    border-radius: 5px;
+    background: linear-gradient(180deg,#fc5d37 0%,#ed5132 49%,#e64525);
+    color: white;
+    border: none;
+}
+.btns{
+    font-size: 25px;
+    width: 420px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 2px solid gray;
+
+}
+#or ,#forgot{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+body{
+    display: flex;
+    flex-flow: column;
+    /* height: 100vh; */
+    /* caret-color: #A0CD4A; */
+}
+    #flname{
+        display: flex;
+    }
+    #fb{
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+        background-repeat: no-repeat;
+        /* background-color: #004387; */
+        background-size: cover;
+    }
+    #footer{
+        display: flex;
+       justify-content: center;
+       background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+       background-repeat: no-repeat;
+       /* background-color: #004387; */
+       background-size: cover;
+    }
+    #footer div{
+        margin-top: 50px;
+        padding:22px;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    #boxes{
+        color: rgb(4, 17, 190);
+        margin-top: 25px;
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    input{
+        font-size: 25px;
+        font-weight: 600f;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    #mains a:hover{
+text-decoration: underline;
+    }

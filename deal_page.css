@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=Lilita+One&family=Nunito:wght@200&family=Rubik+Puddles&display=swap'); 
+
+
+body{
+    background: rgb(236, 234, 234);
+    Font-family: 'Nunito', sans-serif;
+    /* background:transparent radial-gradient(closest-side at 50% 50%, #014B96 0%, #003773 100%) 0% 0% no-repeat padding-box; */
+
+}
+
+#div1, #div4, #div3, #div5{
+    padding: 2% 25px;
+}
+#div2{
+   
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+}
+.review-count{
+    display: inline;
+    font-size: 12px;
+    position: relative;
+    top: -3px;
+
+}
+.cartbtn{
+    width: 100%;
+  height: 50px;
+  color: #ffffff;
+  cursor: pointer;
+    background-color: #fc5d37;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 36px;
+
+}
+#count-down{
+    color: white;
+    text-align: center;
+    box-shadow: rgba(52, 52, 207, 0.2) 0px 7px 29px 0px;
+    background-color: rgb(79, 76, 76);
+}
+.timer-cont{
+    /* display: flex ; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: rgb(55, 43, 43);
+    text-align: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 15px 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+#time{
+    margin: auto;
+    /* text-align: center; */
+    justify-content: center;
+}
+#category{
+    display: flex;
+    gap: 10px;
+    margin: 10px ;
+}
+#category img{
+    background: transparent radial-gradient(closest-side at 50% 50%, #014B96 0%, #003773 100%) 0% 0% no-repeat padding-box;
+      border-radius: 5px;
+      width: 100px;
+      padding: 5px;
+}
+#category h3{
+text-align: center;
+}
+#trending{
+    display: flex;
+    gap: 15px;
+    
+}
+#trending div{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+#trending img{
+    width: 100%;
+}
+#trending span{
+    text-decoration: line-through;
+    margin: 10px;
+    font-weight: 0;
+}
+#trending>div>p{
+    font-weight: 900;
+}
+
+#div5{
+    font-size: 2.37ch;
+}
+
+/* from here css of footer starts */
+#f1{
+    padding: 35px;
+    text-align: center;
+    color: whitesmoke;
+    background: #004387;
+    font-size: 3ch;
+    font-weight: 500;
+}
+#f2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px;
+    font-size: 2.5ch;
+}
+#f2>p:hover{
+    color: #0454a4;
+   
+}
+#f3{
+    background-color: #ffffff;
+    display: flex;
+    text-align: center;
+    padding: 50px;
+    gap: 30px;
+}
+.social>img{
+    width: 40px;
+}
+#f4{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+#f4 a{
+    
+    display: block;
+    /* padding: 50px 10px; */
+    margin: 0.25px 0px;
+    /* margin-top: 3%; */
+    color: #0d71dc;
+    text-decoration: none;
+}
+#f4 a:hover{
+    /* color: #004387; */
+    text-decoration: underline;
+}
+button{
+    background:#004387;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+#f5{
+    margin-top: 10px;
+    background:#004387;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px ;
+}
+
+#f6{
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+}
+
+
