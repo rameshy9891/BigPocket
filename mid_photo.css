@@ -1,0 +1,39 @@
+.mainhead {
+    width: 100%;
+    height: 180px;
+    border: 2px solid black;
+    background-image: linear-gradient( to left, rgb(182, 200, 182) ,rgb(61, 208, 199));
+}
+.photophoto{
+    width: 100%;
+    height: 220px;
+}
+.photophoto img{
+    width: 100%;
+    height: 100%;
+}
+.Photography{
+    text-align: center;
+    font-weight: 500;
+    font-size: 39px;
+}
+.tantan{
+    width: 20%;
+}
+.tantan image{
+    border-radius: 50%;
+    width: 100%;
+}
+.headted{
+    background-color: aquamarine;
+}
+.csscss{
+    width: 100%;
+    margin: auto;
+}
+.csscss img{
+    width: 100%;
+}
+.csscss img:hover{
+    cursor: pointer;
+}
